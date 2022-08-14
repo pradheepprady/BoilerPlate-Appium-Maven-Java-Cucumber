@@ -1,0 +1,1208 @@
+2022-07-17 21:20:35:730 [Appium] Welcome to Appium v1.22.3
+2022-07-17 21:20:35:730 [Appium] Non-default server args:
+2022-07-17 21:20:35:730 [Appium]   port: 34823
+2022-07-17 21:20:35:730 [Appium]   sessionOverride: true
+2022-07-17 21:20:35:730 [Appium]   logFile: /Users/vigneshwarang/IdeaProjects/appium-cucumberbdd/Android_Pixel XL/Server.log
+2022-07-17 21:20:35:738 [Appium] Appium REST http interface listener started on 0.0.0.0:34823
+2022-07-17 21:20:35:968 [HTTP] --> GET /wd/hub/status
+2022-07-17 21:20:35:968 [HTTP] {}
+2022-07-17 21:20:35:969 [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2022-07-17 21:20:35:970 [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.22.3"}}
+2022-07-17 21:20:35:975 [HTTP] <-- GET /wd/hub/status 200 5 ms - 68
+2022-07-17 21:20:35:975 [HTTP] 
+2022-07-17 21:20:35:979 [HTTP] --> GET /wd/hub/status
+2022-07-17 21:20:35:979 [HTTP] {}
+2022-07-17 21:20:35:979 [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2022-07-17 21:20:35:980 [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.22.3"}}
+2022-07-17 21:20:35:980 [HTTP] <-- GET /wd/hub/status 200 1 ms - 68
+2022-07-17 21:20:35:981 [HTTP] 
+2022-07-17 21:20:36:192 [HTTP] Request idempotency key: 361a076f-2b95-4501-9525-f361d5ac6de4
+2022-07-17 21:20:36:198 [HTTP] --> POST /wd/hub/session
+2022-07-17 21:20:36:198 [HTTP] {"desiredCapabilities":{"app":"/Users/vigneshwarang/IdeaProjects/appium-cucumberbdd/src/test/resources/apps/Splitwies_apkmirror.com.apk","automationName":"UiAutomator2","chromeDriverPort":"11000","platformName":"Android","udid":"emulator-5554","deviceName":"Pixel XL","systemPort":"10000"},"capabilities":{"firstMatch":[{"appium:app":"/Users/vigneshwarang/IdeaProjects/appium-cucumberbdd/src/test/resources/apps/Splitwies_apkmirror.com.apk","appium:automationName":"UiAutomator2","chromeDriverPort":"11000","appium:deviceName":"Pixel XL","platformName":"android","appium:systemPort":"10000","appium:udid":"emulator-5554"}]}}
+2022-07-17 21:20:36:198 [W3C] Calling AppiumDriver.createSession() with args: [{"app":"/Users/vigneshwarang/IdeaProjects/appium-cucumberbdd/src/test/resources/apps/Splitwies_apkmirror.com.apk","automationName":"UiAutomator2","chromeDriverPort":"11000","platformName":"Android","udid":"emulator-5554","deviceName":"Pixel XL","systemPort":"10000"},null,{"firstMatch":[{"appium:app":"/Users/vigneshwarang/IdeaProjects/appium-cucumberbdd/src/test/resources/apps/Splitwies_apkmirror.com.apk","appium:automationName":"UiAutomator2","chromeDriverPort":"11000","appium:deviceName":"Pixel XL","platformName":"android","appium:systemPort":"10000","appium:udid":"emulator-5554"}]}]
+2022-07-17 21:20:36:199 [BaseDriver] Event 'newSessionRequested' logged at 1658092836198 (23:20:36 GMT+0200 (Central European Summer Time))
+2022-07-17 21:20:36:200 [BaseDriver] The following capabilities are not standard capabilities and should have an extension prefix:
+2022-07-17 21:20:36:200 [BaseDriver]   chromeDriverPort
+2022-07-17 21:20:36:299 [Appium] Appium v1.22.3 creating new AndroidUiautomator2Driver (v1.70.1) session
+2022-07-17 21:20:36:299 [Appium] There are no active sessions for cleanup
+2022-07-17 21:20:36:300 [BaseDriver] W3C capabilities and MJSONWP desired capabilities were provided
+2022-07-17 21:20:36:300 [BaseDriver] Creating session with W3C capabilities: {
+2022-07-17 21:20:36:300 [BaseDriver]   "alwaysMatch": {
+2022-07-17 21:20:36:300 [BaseDriver]     "appium:chromeDriverPort": "11000",
+2022-07-17 21:20:36:300 [BaseDriver]     "platformName": "android",
+2022-07-17 21:20:36:300 [BaseDriver]     "appium:app": "/Users/vigneshwarang/IdeaProjects/appium-cucumberbdd/src/test/resources/apps/Splitwies_apkmirror.com.apk",
+2022-07-17 21:20:36:300 [BaseDriver]     "appium:automationName": "UiAutomator2",
+2022-07-17 21:20:36:300 [BaseDriver]     "appium:deviceName": "Pixel XL",
+2022-07-17 21:20:36:300 [BaseDriver]     "appium:systemPort": "10000",
+2022-07-17 21:20:36:300 [BaseDriver]     "appium:udid": "emulator-5554"
+2022-07-17 21:20:36:300 [BaseDriver]   },
+2022-07-17 21:20:36:300 [BaseDriver]   "firstMatch": [
+2022-07-17 21:20:36:301 [BaseDriver]     {}
+2022-07-17 21:20:36:301 [BaseDriver]   ]
+2022-07-17 21:20:36:301 [BaseDriver] }
+2022-07-17 21:20:36:302 [BaseDriver] Number capability passed in as string. Functionality may be compromised.
+2022-07-17 21:20:36:302 [BaseDriver] Number capability passed in as string. Functionality may be compromised.
+2022-07-17 21:20:36:304 [BaseDriver] Capability 'systemPort' changed from string ('10000') to integer (10000). This may cause unexpected behavior
+2022-07-17 21:20:36:305 [BaseDriver] Capability 'chromeDriverPort' changed from string ('11000') to integer (11000). This may cause unexpected behavior
+2022-07-17 21:20:36:307 [BaseDriver] Session created with session id: 77c2395a-c253-4f82-a71f-ccd2a6b81d33
+2022-07-17 21:20:36:308 [BaseDriver] Using local app '/Users/vigneshwarang/IdeaProjects/appium-cucumberbdd/src/test/resources/apps/Splitwies_apkmirror.com.apk'
+2022-07-17 21:20:36:308 [UiAutomator2] Checking whether app is actually present
+2022-07-17 21:20:36:320 [ADB] Found 2 'build-tools' folders under '/Users/vigneshwarang/Library/Android/sdk' (newest first):
+2022-07-17 21:20:36:320 [ADB]     /Users/vigneshwarang/Library/Android/sdk/build-tools/33.0.0
+2022-07-17 21:20:36:320 [ADB]     /Users/vigneshwarang/Library/Android/sdk/build-tools/30.0.3
+2022-07-17 21:20:36:321 [ADB] Using 'adb' from '/Users/vigneshwarang/Library/Android/sdk/platform-tools/adb'
+2022-07-17 21:20:36:321 [ADB] Running '/Users/vigneshwarang/Library/Android/sdk/platform-tools/adb -P 5037 start-server'
+2022-07-17 21:20:36:348 [AndroidDriver] Retrieving device list
+2022-07-17 21:20:36:349 [ADB] Trying to find a connected android device
+2022-07-17 21:20:36:349 [ADB] Getting connected devices
+2022-07-17 21:20:36:367 [ADB] Connected devices: [{"udid":"emulator-5554","state":"device"}]
+2022-07-17 21:20:36:367 [AndroidDriver] Using device: emulator-5554
+2022-07-17 21:20:36:368 [ADB] Using 'adb' from '/Users/vigneshwarang/Library/Android/sdk/platform-tools/adb'
+2022-07-17 21:20:36:368 [ADB] Running '/Users/vigneshwarang/Library/Android/sdk/platform-tools/adb -P 5037 start-server'
+2022-07-17 21:20:36:387 [ADB] Setting device id to emulator-5554
+2022-07-17 21:20:36:387 [ADB] Running '/Users/vigneshwarang/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell getprop ro.build.version.sdk'
+2022-07-17 21:20:36:426 [ADB] Current device property 'ro.build.version.sdk': 30
+2022-07-17 21:20:36:426 [ADB] Getting device platform version
+2022-07-17 21:20:36:426 [ADB] Running '/Users/vigneshwarang/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell getprop ro.build.version.release'
+2022-07-17 21:20:36:453 [ADB] Current device property 'ro.build.version.release': 11
+2022-07-17 21:20:36:453 [ADB] Device API level: 30
+2022-07-17 21:20:36:453 [UiAutomator2] Relaxing hidden api policy
+2022-07-17 21:20:36:454 [ADB] Running '/Users/vigneshwarang/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell 'settings put global hidden_api_policy_pre_p_apps 1;settings put global hidden_api_policy_p_apps 1;settings put global hidden_api_policy 1''
+2022-07-17 21:20:36:518 [AndroidDriver] Parsing package and activity from app manifest
+2022-07-17 21:20:36:527 [ADB] Package name: 'com.Splitwise.SplitwiseMobile'
+2022-07-17 21:20:36:527 [ADB] Main activity name: 'com.Splitwise.SplitwiseMobile.views.SplitwiseSplashScreen'
+2022-07-17 21:20:36:527 [AndroidDriver] Parsed package and activity are: com.Splitwise.SplitwiseMobile/com.Splitwise.SplitwiseMobile.views.SplitwiseSplashScreen
+2022-07-17 21:20:36:527 [ADB] Running '/Users/vigneshwarang/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 wait-for-device'
+2022-07-17 21:20:36:544 [ADB] Running '/Users/vigneshwarang/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell echo ping'
+2022-07-17 21:20:36:567 [AndroidDriver] Pushing settings apk to device...
+2022-07-17 21:20:36:567 [ADB] Getting install status for io.appium.settings
+2022-07-17 21:20:36:567 [ADB] Running '/Users/vigneshwarang/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys package io.appium.settings'
+2022-07-17 21:20:36:621 [ADB] 'io.appium.settings' is installed
+2022-07-17 21:20:36:621 [ADB] Getting package info for 'io.appium.settings'
+2022-07-17 21:20:36:621 [ADB] Running '/Users/vigneshwarang/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys package io.appium.settings'
+2022-07-17 21:20:36:650 [ADB] The version name of the installed 'io.appium.settings' is greater or equal to the application version name ('3.4.0' >= '3.4.0')
+2022-07-17 21:20:36:650 [ADB] There is no need to install/upgrade '/opt/homebrew/lib/node_modules/appium/node_modules/io.appium.settings/apks/settings_apk-debug.apk'
+2022-07-17 21:20:36:650 [ADB] Getting IDs of all 'io.appium.settings' processes
+2022-07-17 21:20:36:650 [ADB] Running '/Users/vigneshwarang/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell 'pgrep --help; echo $?''
+2022-07-17 21:20:36:673 [ADB] Running '/Users/vigneshwarang/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell pgrep -f \(\[\[:blank:\]\]\|\^\)io\.appium\.settings\(\[\[:blank:\]\]\|\$\)'
+2022-07-17 21:20:36:705 [AndroidDriver] io.appium.settings is already running. There is no need to reset its permissions.
+2022-07-17 21:20:36:705 [Logcat] Starting logs capture with command: /Users/vigneshwarang/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 logcat -v threadtime
+2022-07-17 21:20:36:729 [UiAutomator2] Forwarding UiAutomator2 Server port 6790 to local port 10000
+2022-07-17 21:20:36:730 [ADB] Forwarding system: 10000 to device: 6790
+2022-07-17 21:20:36:731 [ADB] Running '/Users/vigneshwarang/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 forward tcp:10000 tcp:6790'
+2022-07-17 21:20:36:768 [ADB] Getting install status for io.appium.uiautomator2.server
+2022-07-17 21:20:36:768 [ADB] Running '/Users/vigneshwarang/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys package io.appium.uiautomator2.server'
+2022-07-17 21:20:36:808 [ADB] 'io.appium.uiautomator2.server' is installed
+2022-07-17 21:20:36:808 [ADB] Getting package info for 'io.appium.uiautomator2.server'
+2022-07-17 21:20:36:808 [ADB] Running '/Users/vigneshwarang/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys package io.appium.uiautomator2.server'
+2022-07-17 21:20:36:900 [ADB] The version name of the installed 'io.appium.uiautomator2.server' is greater or equal to the application version name ('4.27.0' >= '4.27.0')
+2022-07-17 21:20:36:900 [UiAutomator2] io.appium.uiautomator2.server installation state: sameVersionInstalled
+2022-07-17 21:20:36:901 [ADB] Checking app cert for /opt/homebrew/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v4.27.0.apk
+2022-07-17 21:20:36:911 [ADB] Using 'apksigner.jar' from '/Users/vigneshwarang/Library/Android/sdk/build-tools/33.0.0/lib/apksigner.jar'
+2022-07-17 21:20:36:912 [ADB] Starting apksigner: /Library/Java/JavaVirtualMachines/openjdk-11.jdk/Contents/Home/bin/java -Xmx1024M -Xss1m -jar /Users/vigneshwarang/Library/Android/sdk/build-tools/33.0.0/lib/apksigner.jar verify --print-certs /opt/homebrew/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v4.27.0.apk
+2022-07-17 21:20:37:394 [ADB] apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+2022-07-17 21:20:37:394 [ADB] Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+2022-07-17 21:20:37:394 [ADB] Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+2022-07-17 21:20:37:394 [ADB] Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+2022-07-17 21:20:37:394 [ADB] 
+2022-07-17 21:20:37:394 [ADB] sha256 hash did match for 'appium-uiautomator2-server-v4.27.0.apk'
+2022-07-17 21:20:37:394 [ADB] '/opt/homebrew/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v4.27.0.apk' is signed with the default certificate
+2022-07-17 21:20:37:394 [ADB] Getting install status for io.appium.uiautomator2.server.test
+2022-07-17 21:20:37:394 [ADB] Running '/Users/vigneshwarang/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys package io.appium.uiautomator2.server.test'
+2022-07-17 21:20:37:423 [ADB] 'io.appium.uiautomator2.server.test' is installed
+2022-07-17 21:20:37:423 [ADB] Checking app cert for /opt/homebrew/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk
+2022-07-17 21:20:37:425 [ADB] Starting apksigner: /Library/Java/JavaVirtualMachines/openjdk-11.jdk/Contents/Home/bin/java -Xmx1024M -Xss1m -jar /Users/vigneshwarang/Library/Android/sdk/build-tools/33.0.0/lib/apksigner.jar verify --print-certs /opt/homebrew/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk
+2022-07-17 21:20:37:626 [ADB] apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+2022-07-17 21:20:37:626 [ADB] Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+2022-07-17 21:20:37:626 [ADB] Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+2022-07-17 21:20:37:626 [ADB] Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+2022-07-17 21:20:37:626 [ADB] 
+2022-07-17 21:20:37:626 [ADB] sha256 hash did match for 'appium-uiautomator2-server-debug-androidTest.apk'
+2022-07-17 21:20:37:626 [ADB] '/opt/homebrew/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk' is signed with the default certificate
+2022-07-17 21:20:37:626 [UiAutomator2] Server packages are not going to be (re)installed
+2022-07-17 21:20:37:627 [UiAutomator2] Waiting up to 30000ms for services to be available
+2022-07-17 21:20:37:627 [ADB] Running '/Users/vigneshwarang/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell pm list instrumentation'
+2022-07-17 21:20:37:664 [UiAutomator2] Instrumentation target 'io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner' is available
+2022-07-17 21:20:37:666 [ADB] Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+2022-07-17 21:20:37:666 [ADB] Got the following command chunks to execute: [["dumpsys","deviceidle","whitelist","+io.appium.settings",";","dumpsys","deviceidle","whitelist","+io.appium.uiautomator2.server",";","dumpsys","deviceidle","whitelist","+io.appium.uiautomator2.server.test",";"]]
+2022-07-17 21:20:37:666 [ADB] Running '/Users/vigneshwarang/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys deviceidle whitelist +io.appium.settings ; dumpsys deviceidle whitelist +io.appium.uiautomator2.server ; dumpsys deviceidle whitelist +io.appium.uiautomator2.server.test ;'
+2022-07-17 21:20:37:707 [ADB] Checking app cert for /Users/vigneshwarang/IdeaProjects/appium-cucumberbdd/src/test/resources/apps/Splitwies_apkmirror.com.apk
+2022-07-17 21:20:37:748 [ADB] Starting apksigner: /Library/Java/JavaVirtualMachines/openjdk-11.jdk/Contents/Home/bin/java -Xmx1024M -Xss1m -jar /Users/vigneshwarang/Library/Android/sdk/build-tools/33.0.0/lib/apksigner.jar verify --print-certs /Users/vigneshwarang/IdeaProjects/appium-cucumberbdd/src/test/resources/apps/Splitwies_apkmirror.com.apk
+2022-07-17 21:20:38:265 [ADB] apksigner stdout: Signer #1 certificate DN: CN=Ryan Laughlin, OU=Splitwise, O=Splitwise, L=Cambridge, ST=MA, C=US
+2022-07-17 21:20:38:265 [ADB] Signer #1 certificate SHA-256 digest: 68ae4f47bcfadbf0906e2c427c14efba6675b5902ed880eb7d9101edec41dc49
+2022-07-17 21:20:38:266 [ADB] Signer #1 certificate SHA-1 digest: 373559486d7c1be1298aec3bfbf7d629c274564b
+2022-07-17 21:20:38:266 [ADB] Signer #1 certificate MD5 digest: bf1f8dc30bc4454104c6a1ab225b2af0
+2022-07-17 21:20:38:266 [ADB] Source Stamp Signer certificate DN: CN=Android, OU=Android, O=Google Inc., L=Mountain View, ST=California, C=US
+2022-07-17 21:20:38:266 [ADB] Source Stamp Signer certificate SHA-256 digest: 3257d599a49d2c961a471ca9843f59d341a405884583fc087df4237b733bbd6d
+2022-07-17 21:20:38:266 [ADB] Source Stamp Signer certificate SHA-1 digest: b1af3a0bf998aeede1a8716a539e5a59da1d86d6
+2022-07-17 21:20:38:266 [ADB] Source Stamp Signer certificate MD5 digest: 577b8a9fbc7e308321aec6411169d2fb
+2022-07-17 21:20:38:266 [ADB] 
+2022-07-17 21:20:38:266 [ADB] '/Users/vigneshwarang/IdeaProjects/appium-cucumberbdd/src/test/resources/apps/Splitwies_apkmirror.com.apk' is signed with a non-default certificate
+2022-07-17 21:20:38:266 [ADB] Getting install status for com.Splitwise.SplitwiseMobile
+2022-07-17 21:20:38:266 [ADB] Running '/Users/vigneshwarang/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys package com.Splitwise.SplitwiseMobile'
+2022-07-17 21:20:38:302 [ADB] 'com.Splitwise.SplitwiseMobile' is installed
+2022-07-17 21:20:38:302 [ADB] Getting package info for 'com.Splitwise.SplitwiseMobile'
+2022-07-17 21:20:38:302 [ADB] Running '/Users/vigneshwarang/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys package com.Splitwise.SplitwiseMobile'
+2022-07-17 21:20:38:338 [ADB] The version name of the installed 'com.Splitwise.SplitwiseMobile' is greater or equal to the application version name ('5.1.4' >= '5.1.4')
+2022-07-17 21:20:38:338 [ADB] There is no need to install/upgrade '/Users/vigneshwarang/IdeaProjects/appium-cucumberbdd/src/test/resources/apps/Splitwies_apkmirror.com.apk'
+2022-07-17 21:20:38:338 [AndroidDriver] Performing fast reset on 'com.Splitwise.SplitwiseMobile'
+2022-07-17 21:20:38:338 [ADB] Getting install status for com.Splitwise.SplitwiseMobile
+2022-07-17 21:20:38:338 [ADB] Running '/Users/vigneshwarang/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys package com.Splitwise.SplitwiseMobile'
+2022-07-17 21:20:38:370 [ADB] 'com.Splitwise.SplitwiseMobile' is installed
+2022-07-17 21:20:38:370 [ADB] Running '/Users/vigneshwarang/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell am force-stop com.Splitwise.SplitwiseMobile'
+2022-07-17 21:20:38:403 [ADB] Running '/Users/vigneshwarang/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell pm clear com.Splitwise.SplitwiseMobile'
+2022-07-17 21:20:38:443 [AndroidDriver] Performed fast reset on the installed 'com.Splitwise.SplitwiseMobile' application (stop and clear)
+2022-07-17 21:20:38:443 [UiAutomator2] Performing shallow cleanup of automation leftovers
+2022-07-17 21:20:38:451 [UiAutomator2] No obsolete sessions have been detected (socket hang up)
+2022-07-17 21:20:38:451 [ADB] Running '/Users/vigneshwarang/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell am force-stop io.appium.uiautomator2.server.test'
+2022-07-17 21:20:38:496 [UiAutomator2] Starting UIAutomator2 server 4.27.0
+2022-07-17 21:20:38:496 [UiAutomator2] Using UIAutomator2 server from '/opt/homebrew/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v4.27.0.apk' and test from '/opt/homebrew/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk'
+2022-07-17 21:20:38:496 [UiAutomator2] Waiting up to 30000ms for UiAutomator2 to be online...
+2022-07-17 21:20:38:497 [ADB] Creating ADB subprocess with args: ["-P",5037,"-s","emulator-5554","shell","am","instrument","-w","-e","disableAnalytics",true,"io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner"]
+2022-07-17 21:20:38:501 [WD Proxy] Matched '/status' to command name 'getStatus'
+2022-07-17 21:20:38:502 [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:10000/wd/hub/status] with no body
+2022-07-17 21:20:38:506 [WD Proxy] socket hang up
+2022-07-17 21:20:38:933 [Instrumentation] io.appium.uiautomator2.server.test.AppiumUiAutomator2Server:
+2022-07-17 21:20:39:510 [WD Proxy] Matched '/status' to command name 'getStatus'
+2022-07-17 21:20:39:510 [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:10000/wd/hub/status] with no body
+2022-07-17 21:20:39:514 [WD Proxy] socket hang up
+2022-07-17 21:20:40:521 [WD Proxy] Matched '/status' to command name 'getStatus'
+2022-07-17 21:20:40:521 [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:10000/wd/hub/status] with no body
+2022-07-17 21:20:40:565 [WD Proxy] Got response with status 200: {"sessionId":"None","value":{"message":"UiAutomator2 Server is ready to accept commands","ready":true}}
+2022-07-17 21:20:40:566 [UiAutomator2] The initialization of the instrumentation process took 2069ms
+2022-07-17 21:20:40:566 [WD Proxy] Matched '/session' to command name 'createSession'
+2022-07-17 21:20:40:566 [WD Proxy] Proxying [POST /session] to [POST http://127.0.0.1:10000/wd/hub/session] with body: {"capabilities":{"firstMatch":[{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","chromeDriverPort":11000,"app":"/Users/vigneshwarang/IdeaProjects/appium-cucumberbdd/src/test/resources/apps/Splitwies_apkmirror.com.apk","automationName":"UiAutomator2","deviceName":"Pixel XL","systemPort":10000,"udid":"emulator-5554"},"platformName":"android","chromeDriverPort":11000,"app":"/Users/vigneshwarang/IdeaProjects/appium-cucumberbdd/src/test/resources/apps/Splitwies_apkmirror.com.apk","automationName":"UiAutomator2","deviceName":"emulator-5554","systemPort":10000,"udid":"emulator-5554","deviceUDID":"emulator-5554","appPackage":"com.Splitwise.SplitwiseMobile"}],"alwaysMatch":{}}}
+2022-07-17 21:20:40:581 [WD Proxy] Got response with status 200: {"sessionId":"3c57b928-7e7e-447e-873b-a207770bd0e5","value":{"capabilities":{"firstMatch":[{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","chromeDriverPort":11000,"app":"/Users/vigneshwarang/IdeaProjects/appium-cucumberbdd/src/test/resources/apps/Splitwies_apkmirror.com.apk","automationName":"UiAutomator2","deviceName":"Pixel XL","systemPort":10000,"udid":"emulator-5554"},"platformName":"android","chromeDriverPort":11000,"app":"/Users/vigneshwarang/IdeaProjects/appium-cucumberbdd/src/test/resources/apps/Splitwies_apkmirror.com.apk","automationName":"UiAutomator2","deviceName":"emulator-5554","systemPort":10000,"udid":"emulator-5554","deviceUDID":"emulator-5554","appPackage":"com.Splitwise.SplitwiseMobile"}],"alwaysMatch":{}},"sessionId":"3c57b928-7e7e-447e-873b-a207770bd0e5"}}
+2022-07-17 21:20:40:581 [WD Proxy] Determined the downstream protocol as 'W3C'
+2022-07-17 21:20:40:592 [WD Proxy] Proxying [GET /appium/device/info] to [GET http://127.0.0.1:10000/wd/hub/session/3c57b928-7e7e-447e-873b-a207770bd0e5/appium/device/info] with no body
+2022-07-17 21:20:40:607 [WD Proxy] Got response with status 200: {"sessionId":"3c57b928-7e7e-447e-873b-a207770bd0e5","value":{"androidId":"004b04509178184d","apiVersion":"30","bluetooth":{"state":"ON"},"brand":"google","carrierName":"Android","displayDensity":560,"locale":"en_US","manufacturer":"Google","model":"sdk_gphone_arm64","networks":[{"capabilities":{"SSID":null,"linkDownBandwidthKbps":30000,"linkUpstreamBandwidthKbps":15000,"networkCapabilities":"NET_CAPABILITY_MMS,NET_CAPABILITY_SUPL,NET_CAPABILITY_DUN,NET_CAPABILITY_FOTA,NET_CAPABILITY_IMS,NET_CAPABILITY_CBS,NET_CAPABILITY_INTERNET,NET_CAPABILITY_NOT_RESTRICTED,NET_CAPABILITY_TRUSTED,NET_CAPABILITY_NOT_VPN,NET_CAPABILITY_VALIDATED,NET_CAPABILITY_NOT_ROAMING,NET_CAPABILITY_NOT_CONGESTED,NET_CAPABILITY_NOT_SUSPENDED","signalStrength":-2147483648,"transportTypes":"TRANSPORT_CELLULAR"},"detailedState":"CONNECTED","extraInfo":"epc.tmobile.com","isAvailable":true,"isConnected":true,"isFailover":false,"isRoaming":false,"state":"CONNECTED","subtype":13,"subtypeName":"LTE","type":0,"typeName":"MOBILE"},{"capabilities"...
+2022-07-17 21:20:40:608 [ADB] Running '/Users/vigneshwarang/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys window'
+2022-07-17 21:20:40:650 [AndroidDriver] Screen already unlocked, doing nothing
+2022-07-17 21:20:40:650 [UiAutomator2] Starting 'com.Splitwise.SplitwiseMobile/com.Splitwise.SplitwiseMobile.views.SplitwiseSplashScreen and waiting for 'com.Splitwise.SplitwiseMobile/com.Splitwise.SplitwiseMobile.views.SplitwiseSplashScreen'
+2022-07-17 21:20:40:650 [ADB] Running '/Users/vigneshwarang/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell am start -W -n com.Splitwise.SplitwiseMobile/com.Splitwise.SplitwiseMobile.views.SplitwiseSplashScreen -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+2022-07-17 21:20:41:868 [ADB] Waiting up to 20000ms for activity matching pkg: 'com.Splitwise.SplitwiseMobile' and activity: 'com.Splitwise.SplitwiseMobile.views.SplitwiseSplashScreen' to be focused
+2022-07-17 21:20:41:869 [ADB] Possible activities, to be checked: 'com.Splitwise.SplitwiseMobile.views.SplitwiseSplashScreen', 'com.Splitwise.SplitwiseMobile.com.Splitwise.SplitwiseMobile.views.SplitwiseSplashScreen'
+2022-07-17 21:20:41:869 [ADB] Getting focused package and activity
+2022-07-17 21:20:41:869 [ADB] Running '/Users/vigneshwarang/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys window displays'
+2022-07-17 21:20:41:916 [ADB] Found package: 'com.Splitwise.SplitwiseMobile' and fully qualified activity name : 'com.Splitwise.SplitwiseMobile.views.SplitwiseSplashScreen'
+2022-07-17 21:20:41:917 [WD Proxy] Proxying [GET /appium/device/pixel_ratio] to [GET http://127.0.0.1:10000/wd/hub/session/3c57b928-7e7e-447e-873b-a207770bd0e5/appium/device/pixel_ratio] with no body
+2022-07-17 21:20:41:923 [WD Proxy] Got response with status 200: {"sessionId":"3c57b928-7e7e-447e-873b-a207770bd0e5","value":3.5}
+2022-07-17 21:20:41:923 [WD Proxy] Matched '/appium/device/system_bars' to command name 'getSystemBars'
+2022-07-17 21:20:41:924 [WD Proxy] Proxying [GET /appium/device/system_bars] to [GET http://127.0.0.1:10000/wd/hub/session/3c57b928-7e7e-447e-873b-a207770bd0e5/appium/device/system_bars] with no body
+2022-07-17 21:20:41:929 [WD Proxy] Got response with status 200: {"sessionId":"3c57b928-7e7e-447e-873b-a207770bd0e5","value":{"statusBar":84}}
+2022-07-17 21:20:41:929 [WD Proxy] Matched '/window/current/size' to command name 'getWindowSize'
+2022-07-17 21:20:41:929 [WD Proxy] Proxying [GET /window/current/size] to [GET http://127.0.0.1:10000/wd/hub/session/3c57b928-7e7e-447e-873b-a207770bd0e5/window/current/size] with no body
+2022-07-17 21:20:41:935 [WD Proxy] Got response with status 200: {"sessionId":"3c57b928-7e7e-447e-873b-a207770bd0e5","value":{"height":2392,"width":1440}}
+2022-07-17 21:20:41:936 [Appium] New AndroidUiautomator2Driver session created successfully, session 77c2395a-c253-4f82-a71f-ccd2a6b81d33 added to master session list
+2022-07-17 21:20:41:936 [BaseDriver] Event 'newSessionStarted' logged at 1658092841936 (23:20:41 GMT+0200 (Central European Summer Time))
+2022-07-17 21:20:41:936 [W3C (77c2395a)] Cached the protocol value 'W3C' for the new session 77c2395a-c253-4f82-a71f-ccd2a6b81d33
+2022-07-17 21:20:41:937 [W3C (77c2395a)] Responding to client with driver.createSession() result: {"capabilities":{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","chromeDriverPort":11000,"app":"/Users/vigneshwarang/IdeaProjects/appium-cucumberbdd/src/test/resources/apps/Splitwies_apkmirror.com.apk","automationName":"UiAutomator2","deviceName":"Pixel XL","systemPort":10000,"udid":"emulator-5554"},"platformName":"android","chromeDriverPort":11000,"app":"/Users/vigneshwarang/IdeaProjects/appium-cucumberbdd/src/test/resources/apps/Splitwies_apkmirror.com.apk","automationName":"UiAutomator2","deviceName":"emulator-5554","systemPort":10000,"udid":"emulator-5554","deviceUDID":"emulator-5554","appPackage":"com.Splitwise.SplitwiseMobile","deviceApiLevel":30,"platformVersion":"11","deviceScreenSize":"1440x2560","deviceScreenDensity":560,"deviceModel":"sdk_gphone_arm64","deviceManufacturer":"Google","pixelRatio":3.5,"statBarHeight":8...
+2022-07-17 21:20:41:937 [HTTP] <-- POST /wd/hub/session 200 5739 ms - 1147
+2022-07-17 21:20:41:937 [HTTP] 
+2022-07-17 21:20:42:369 [HTTP] --> POST /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/appium/start_recording_screen
+2022-07-17 21:20:42:369 [HTTP] {}
+2022-07-17 21:20:42:373 [W3C (77c2395a)] Calling AppiumDriver.startRecordingScreen() with args: [null,"77c2395a-c253-4f82-a71f-ccd2a6b81d33"]
+2022-07-17 21:20:42:374 [ADB] Getting IDs of all 'screenrecord' processes
+2022-07-17 21:20:42:374 [ADB] Running '/Users/vigneshwarang/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell pgrep -f \(\[\[:blank:\]\]\|\^\)screenrecord\(\[\[:blank:\]\]\|\$\)'
+2022-07-17 21:20:42:428 [AndroidDriver] Screen recording has not been previously started by Appium. There is nothing to stop
+2022-07-17 21:20:42:428 [ADB] Getting IDs of all 'screenrecord' processes
+2022-07-17 21:20:42:428 [ADB] Running '/Users/vigneshwarang/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell pgrep -f \(\[\[:blank:\]\]\|\^\)screenrecord\(\[\[:blank:\]\]\|\$\)'
+2022-07-17 21:20:42:460 [ADB] Building screenrecord process with the command line: adb -P 5037 -s emulator-5554 shell screenrecord --time-limit 180 /sdcard/0ce9bf5a.mp4
+2022-07-17 21:20:42:463 [ADB] Running '/Users/vigneshwarang/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell "[ -e '/sdcard/0ce9bf5a.mp4' ] && echo __PASS__"'
+2022-07-17 21:20:42:794 [ADB] Running '/Users/vigneshwarang/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell "[ -e '/sdcard/0ce9bf5a.mp4' ] && echo __PASS__"'
+2022-07-17 21:20:42:838 [W3C (77c2395a)] Responding to client with driver.startRecordingScreen() result: ""
+2022-07-17 21:20:42:839 [HTTP] <-- POST /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/appium/start_recording_screen 200 470 ms - 12
+2022-07-17 21:20:42:839 [HTTP] 
+2022-07-17 21:20:42:939 [HTTP] --> GET /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/context
+2022-07-17 21:20:42:939 [HTTP] {}
+2022-07-17 21:20:42:943 [W3C (77c2395a)] Calling AppiumDriver.getCurrentContext() with args: ["77c2395a-c253-4f82-a71f-ccd2a6b81d33"]
+2022-07-17 21:20:42:944 [W3C (77c2395a)] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+2022-07-17 21:20:42:944 [HTTP] <-- GET /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/context 200 5 ms - 22
+2022-07-17 21:20:42:944 [HTTP] 
+2022-07-17 21:20:42:950 [HTTP] --> POST /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element
+2022-07-17 21:20:42:950 [HTTP] {"using":"id","value":"com.Splitwise.SplitwiseMobile:id/loginButton"}
+2022-07-17 21:20:42:951 [W3C (77c2395a)] Calling AppiumDriver.findElement() with args: ["id","com.Splitwise.SplitwiseMobile:id/loginButton","77c2395a-c253-4f82-a71f-ccd2a6b81d33"]
+2022-07-17 21:20:42:951 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+2022-07-17 21:20:42:952 [BaseDriver] Waiting up to 0 ms for condition
+2022-07-17 21:20:42:952 [WD Proxy] Matched '/element' to command name 'findElement'
+2022-07-17 21:20:42:952 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:10000/wd/hub/session/3c57b928-7e7e-447e-873b-a207770bd0e5/element] with body: {"strategy":"id","selector":"com.Splitwise.SplitwiseMobile:id/loginButton","context":"","multiple":false}
+2022-07-17 21:20:42:977 [WD Proxy] Got response with status 200: {"sessionId":"3c57b928-7e7e-447e-873b-a207770bd0e5","value":{"ELEMENT":"00000000-0000-0065-ffff-ffff00000014","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0065-ffff-ffff00000014"}}
+2022-07-17 21:20:42:977 [W3C (77c2395a)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0065-ffff-ffff00000014","ELEMENT":"00000000-0000-0065-ffff-ffff00000014"}
+2022-07-17 21:20:42:977 [HTTP] <-- POST /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element 200 27 ms - 137
+2022-07-17 21:20:42:977 [HTTP] 
+2022-07-17 21:20:42:980 [HTTP] --> GET /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element/00000000-0000-0065-ffff-ffff00000014/displayed
+2022-07-17 21:20:42:981 [HTTP] {}
+2022-07-17 21:20:42:982 [W3C (77c2395a)] Calling AppiumDriver.elementDisplayed() with args: ["00000000-0000-0065-ffff-ffff00000014","77c2395a-c253-4f82-a71f-ccd2a6b81d33"]
+2022-07-17 21:20:42:983 [WD Proxy] Matched '/element/00000000-0000-0065-ffff-ffff00000014/attribute/displayed' to command name 'getAttribute'
+2022-07-17 21:20:42:983 [WD Proxy] Proxying [GET /element/00000000-0000-0065-ffff-ffff00000014/attribute/displayed] to [GET http://127.0.0.1:10000/wd/hub/session/3c57b928-7e7e-447e-873b-a207770bd0e5/element/00000000-0000-0065-ffff-ffff00000014/attribute/displayed] with no body
+2022-07-17 21:20:42:994 [WD Proxy] Got response with status 200: {"sessionId":"3c57b928-7e7e-447e-873b-a207770bd0e5","value":"true"}
+2022-07-17 21:20:42:995 [W3C (77c2395a)] Responding to client with driver.elementDisplayed() result: true
+2022-07-17 21:20:42:995 [HTTP] <-- GET /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element/00000000-0000-0065-ffff-ffff00000014/displayed 200 15 ms - 14
+2022-07-17 21:20:42:995 [HTTP] 
+2022-07-17 21:20:42:998 [HTTP] --> GET /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/context
+2022-07-17 21:20:42:999 [HTTP] {}
+2022-07-17 21:20:42:999 [W3C (77c2395a)] Calling AppiumDriver.getCurrentContext() with args: ["77c2395a-c253-4f82-a71f-ccd2a6b81d33"]
+2022-07-17 21:20:42:999 [W3C (77c2395a)] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+2022-07-17 21:20:43:000 [HTTP] <-- GET /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/context 200 1 ms - 22
+2022-07-17 21:20:43:000 [HTTP] 
+2022-07-17 21:20:43:004 [HTTP] --> POST /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element
+2022-07-17 21:20:43:004 [HTTP] {"using":"id","value":"com.Splitwise.SplitwiseMobile:id/loginButton"}
+2022-07-17 21:20:43:005 [W3C (77c2395a)] Calling AppiumDriver.findElement() with args: ["id","com.Splitwise.SplitwiseMobile:id/loginButton","77c2395a-c253-4f82-a71f-ccd2a6b81d33"]
+2022-07-17 21:20:43:005 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+2022-07-17 21:20:43:005 [BaseDriver] Waiting up to 0 ms for condition
+2022-07-17 21:20:43:005 [WD Proxy] Matched '/element' to command name 'findElement'
+2022-07-17 21:20:43:005 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:10000/wd/hub/session/3c57b928-7e7e-447e-873b-a207770bd0e5/element] with body: {"strategy":"id","selector":"com.Splitwise.SplitwiseMobile:id/loginButton","context":"","multiple":false}
+2022-07-17 21:20:43:020 [WD Proxy] Got response with status 200: {"sessionId":"3c57b928-7e7e-447e-873b-a207770bd0e5","value":{"ELEMENT":"00000000-0000-0065-ffff-ffff00000014","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0065-ffff-ffff00000014"}}
+2022-07-17 21:20:43:021 [W3C (77c2395a)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0065-ffff-ffff00000014","ELEMENT":"00000000-0000-0065-ffff-ffff00000014"}
+2022-07-17 21:20:43:022 [HTTP] <-- POST /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element 200 17 ms - 137
+2022-07-17 21:20:43:022 [HTTP] 
+2022-07-17 21:20:43:026 [HTTP] --> POST /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element/00000000-0000-0065-ffff-ffff00000014/click
+2022-07-17 21:20:43:026 [HTTP] {"id":"00000000-0000-0065-ffff-ffff00000014"}
+2022-07-17 21:20:43:026 [W3C (77c2395a)] Calling AppiumDriver.click() with args: ["00000000-0000-0065-ffff-ffff00000014","77c2395a-c253-4f82-a71f-ccd2a6b81d33"]
+2022-07-17 21:20:43:027 [WD Proxy] Matched '/element/00000000-0000-0065-ffff-ffff00000014/click' to command name 'click'
+2022-07-17 21:20:43:027 [WD Proxy] Proxying [POST /element/00000000-0000-0065-ffff-ffff00000014/click] to [POST http://127.0.0.1:10000/wd/hub/session/3c57b928-7e7e-447e-873b-a207770bd0e5/element/00000000-0000-0065-ffff-ffff00000014/click] with body: {"element":"00000000-0000-0065-ffff-ffff00000014"}
+2022-07-17 21:20:43:103 [WD Proxy] Got response with status 200: {"sessionId":"3c57b928-7e7e-447e-873b-a207770bd0e5","value":null}
+2022-07-17 21:20:43:103 [W3C (77c2395a)] Responding to client with driver.click() result: null
+2022-07-17 21:20:43:104 [HTTP] <-- POST /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element/00000000-0000-0065-ffff-ffff00000014/click 200 78 ms - 14
+2022-07-17 21:20:43:104 [HTTP] 
+2022-07-17 21:20:43:111 [HTTP] --> GET /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/context
+2022-07-17 21:20:43:111 [HTTP] {}
+2022-07-17 21:20:43:111 [W3C (77c2395a)] Calling AppiumDriver.getCurrentContext() with args: ["77c2395a-c253-4f82-a71f-ccd2a6b81d33"]
+2022-07-17 21:20:43:112 [W3C (77c2395a)] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+2022-07-17 21:20:43:112 [HTTP] <-- GET /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/context 200 1 ms - 22
+2022-07-17 21:20:43:113 [HTTP] 
+2022-07-17 21:20:43:116 [HTTP] --> POST /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element
+2022-07-17 21:20:43:116 [HTTP] {"using":"id","value":"com.Splitwise.SplitwiseMobile:id/emailInputField"}
+2022-07-17 21:20:43:117 [W3C (77c2395a)] Calling AppiumDriver.findElement() with args: ["id","com.Splitwise.SplitwiseMobile:id/emailInputField","77c2395a-c253-4f82-a71f-ccd2a6b81d33"]
+2022-07-17 21:20:43:117 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+2022-07-17 21:20:43:117 [BaseDriver] Waiting up to 0 ms for condition
+2022-07-17 21:20:43:117 [WD Proxy] Matched '/element' to command name 'findElement'
+2022-07-17 21:20:43:117 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:10000/wd/hub/session/3c57b928-7e7e-447e-873b-a207770bd0e5/element] with body: {"strategy":"id","selector":"com.Splitwise.SplitwiseMobile:id/emailInputField","context":"","multiple":false}
+2022-07-17 21:20:43:321 [WD Proxy] Got response with status 200: {"sessionId":"3c57b928-7e7e-447e-873b-a207770bd0e5","value":{"ELEMENT":"00000000-0000-0065-ffff-ffff00000021","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0065-ffff-ffff00000021"}}
+2022-07-17 21:20:43:321 [W3C (77c2395a)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0065-ffff-ffff00000021","ELEMENT":"00000000-0000-0065-ffff-ffff00000021"}
+2022-07-17 21:20:43:322 [HTTP] <-- POST /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element 200 206 ms - 137
+2022-07-17 21:20:43:322 [HTTP] 
+2022-07-17 21:20:43:325 [HTTP] --> GET /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element/00000000-0000-0065-ffff-ffff00000021/displayed
+2022-07-17 21:20:43:325 [HTTP] {}
+2022-07-17 21:20:43:326 [W3C (77c2395a)] Calling AppiumDriver.elementDisplayed() with args: ["00000000-0000-0065-ffff-ffff00000021","77c2395a-c253-4f82-a71f-ccd2a6b81d33"]
+2022-07-17 21:20:43:326 [WD Proxy] Matched '/element/00000000-0000-0065-ffff-ffff00000021/attribute/displayed' to command name 'getAttribute'
+2022-07-17 21:20:43:326 [WD Proxy] Proxying [GET /element/00000000-0000-0065-ffff-ffff00000021/attribute/displayed] to [GET http://127.0.0.1:10000/wd/hub/session/3c57b928-7e7e-447e-873b-a207770bd0e5/element/00000000-0000-0065-ffff-ffff00000021/attribute/displayed] with no body
+2022-07-17 21:20:44:160 [WD Proxy] Got response with status 200: {"sessionId":"3c57b928-7e7e-447e-873b-a207770bd0e5","value":"true"}
+2022-07-17 21:20:44:160 [W3C (77c2395a)] Responding to client with driver.elementDisplayed() result: true
+2022-07-17 21:20:44:161 [HTTP] <-- GET /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element/00000000-0000-0065-ffff-ffff00000021/displayed 200 835 ms - 14
+2022-07-17 21:20:44:161 [HTTP] 
+2022-07-17 21:20:44:168 [HTTP] --> GET /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/context
+2022-07-17 21:20:44:168 [HTTP] {}
+2022-07-17 21:20:44:168 [W3C (77c2395a)] Calling AppiumDriver.getCurrentContext() with args: ["77c2395a-c253-4f82-a71f-ccd2a6b81d33"]
+2022-07-17 21:20:44:168 [W3C (77c2395a)] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+2022-07-17 21:20:44:169 [HTTP] <-- GET /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/context 200 1 ms - 22
+2022-07-17 21:20:44:169 [HTTP] 
+2022-07-17 21:20:44:177 [HTTP] --> POST /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element
+2022-07-17 21:20:44:177 [HTTP] {"using":"id","value":"com.Splitwise.SplitwiseMobile:id/emailInputField"}
+2022-07-17 21:20:44:177 [W3C (77c2395a)] Calling AppiumDriver.findElement() with args: ["id","com.Splitwise.SplitwiseMobile:id/emailInputField","77c2395a-c253-4f82-a71f-ccd2a6b81d33"]
+2022-07-17 21:20:44:178 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+2022-07-17 21:20:44:178 [BaseDriver] Waiting up to 0 ms for condition
+2022-07-17 21:20:44:178 [WD Proxy] Matched '/element' to command name 'findElement'
+2022-07-17 21:20:44:178 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:10000/wd/hub/session/3c57b928-7e7e-447e-873b-a207770bd0e5/element] with body: {"strategy":"id","selector":"com.Splitwise.SplitwiseMobile:id/emailInputField","context":"","multiple":false}
+2022-07-17 21:20:44:190 [WD Proxy] Got response with status 200: {"sessionId":"3c57b928-7e7e-447e-873b-a207770bd0e5","value":{"ELEMENT":"00000000-0000-0065-ffff-ffff00000021","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0065-ffff-ffff00000021"}}
+2022-07-17 21:20:44:190 [W3C (77c2395a)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0065-ffff-ffff00000021","ELEMENT":"00000000-0000-0065-ffff-ffff00000021"}
+2022-07-17 21:20:44:191 [HTTP] <-- POST /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element 200 14 ms - 137
+2022-07-17 21:20:44:191 [HTTP] 
+2022-07-17 21:20:44:195 [HTTP] --> POST /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element/00000000-0000-0065-ffff-ffff00000021/clear
+2022-07-17 21:20:44:195 [HTTP] {"id":"00000000-0000-0065-ffff-ffff00000021"}
+2022-07-17 21:20:44:196 [W3C (77c2395a)] Calling AppiumDriver.clear() with args: ["00000000-0000-0065-ffff-ffff00000021","77c2395a-c253-4f82-a71f-ccd2a6b81d33"]
+2022-07-17 21:20:44:196 [WD Proxy] Matched '/element/00000000-0000-0065-ffff-ffff00000021/clear' to command name 'clear'
+2022-07-17 21:20:44:196 [WD Proxy] Proxying [POST /element/00000000-0000-0065-ffff-ffff00000021/clear] to [POST http://127.0.0.1:10000/wd/hub/session/3c57b928-7e7e-447e-873b-a207770bd0e5/element/00000000-0000-0065-ffff-ffff00000021/clear] with body: {"elementId":"00000000-0000-0065-ffff-ffff00000021"}
+2022-07-17 21:20:44:209 [WD Proxy] Got response with status 200: {"sessionId":"3c57b928-7e7e-447e-873b-a207770bd0e5","value":null}
+2022-07-17 21:20:44:209 [W3C (77c2395a)] Responding to client with driver.clear() result: null
+2022-07-17 21:20:44:209 [HTTP] <-- POST /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element/00000000-0000-0065-ffff-ffff00000021/clear 200 14 ms - 14
+2022-07-17 21:20:44:209 [HTTP] 
+2022-07-17 21:20:44:213 [HTTP] --> GET /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/context
+2022-07-17 21:20:44:214 [HTTP] {}
+2022-07-17 21:20:44:214 [W3C (77c2395a)] Calling AppiumDriver.getCurrentContext() with args: ["77c2395a-c253-4f82-a71f-ccd2a6b81d33"]
+2022-07-17 21:20:44:215 [W3C (77c2395a)] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+2022-07-17 21:20:44:216 [HTTP] <-- GET /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/context 200 3 ms - 22
+2022-07-17 21:20:44:216 [HTTP] 
+2022-07-17 21:20:44:223 [HTTP] --> POST /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element
+2022-07-17 21:20:44:223 [HTTP] {"using":"id","value":"com.Splitwise.SplitwiseMobile:id/emailInputField"}
+2022-07-17 21:20:44:224 [W3C (77c2395a)] Calling AppiumDriver.findElement() with args: ["id","com.Splitwise.SplitwiseMobile:id/emailInputField","77c2395a-c253-4f82-a71f-ccd2a6b81d33"]
+2022-07-17 21:20:44:224 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+2022-07-17 21:20:44:224 [BaseDriver] Waiting up to 0 ms for condition
+2022-07-17 21:20:44:224 [WD Proxy] Matched '/element' to command name 'findElement'
+2022-07-17 21:20:44:224 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:10000/wd/hub/session/3c57b928-7e7e-447e-873b-a207770bd0e5/element] with body: {"strategy":"id","selector":"com.Splitwise.SplitwiseMobile:id/emailInputField","context":"","multiple":false}
+2022-07-17 21:20:44:838 [WD Proxy] Got response with status 200: {"sessionId":"3c57b928-7e7e-447e-873b-a207770bd0e5","value":{"ELEMENT":"00000000-0000-0065-ffff-ffff00000021","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0065-ffff-ffff00000021"}}
+2022-07-17 21:20:44:838 [W3C (77c2395a)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0065-ffff-ffff00000021","ELEMENT":"00000000-0000-0065-ffff-ffff00000021"}
+2022-07-17 21:20:44:839 [HTTP] <-- POST /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element 200 615 ms - 137
+2022-07-17 21:20:44:839 [HTTP] 
+2022-07-17 21:20:44:845 [HTTP] --> GET /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element/00000000-0000-0065-ffff-ffff00000021/displayed
+2022-07-17 21:20:44:845 [HTTP] {}
+2022-07-17 21:20:44:846 [W3C (77c2395a)] Calling AppiumDriver.elementDisplayed() with args: ["00000000-0000-0065-ffff-ffff00000021","77c2395a-c253-4f82-a71f-ccd2a6b81d33"]
+2022-07-17 21:20:44:846 [WD Proxy] Matched '/element/00000000-0000-0065-ffff-ffff00000021/attribute/displayed' to command name 'getAttribute'
+2022-07-17 21:20:44:847 [WD Proxy] Proxying [GET /element/00000000-0000-0065-ffff-ffff00000021/attribute/displayed] to [GET http://127.0.0.1:10000/wd/hub/session/3c57b928-7e7e-447e-873b-a207770bd0e5/element/00000000-0000-0065-ffff-ffff00000021/attribute/displayed] with no body
+2022-07-17 21:20:44:901 [WD Proxy] Got response with status 200: {"sessionId":"3c57b928-7e7e-447e-873b-a207770bd0e5","value":"true"}
+2022-07-17 21:20:44:901 [W3C (77c2395a)] Responding to client with driver.elementDisplayed() result: true
+2022-07-17 21:20:44:902 [HTTP] <-- GET /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element/00000000-0000-0065-ffff-ffff00000021/displayed 200 56 ms - 14
+2022-07-17 21:20:44:902 [HTTP] 
+2022-07-17 21:20:44:905 [HTTP] --> GET /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/context
+2022-07-17 21:20:44:906 [HTTP] {}
+2022-07-17 21:20:44:906 [W3C (77c2395a)] Calling AppiumDriver.getCurrentContext() with args: ["77c2395a-c253-4f82-a71f-ccd2a6b81d33"]
+2022-07-17 21:20:44:906 [W3C (77c2395a)] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+2022-07-17 21:20:44:906 [HTTP] <-- GET /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/context 200 1 ms - 22
+2022-07-17 21:20:44:907 [HTTP] 
+2022-07-17 21:20:44:910 [HTTP] --> POST /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element
+2022-07-17 21:20:44:910 [HTTP] {"using":"id","value":"com.Splitwise.SplitwiseMobile:id/emailInputField"}
+2022-07-17 21:20:44:910 [W3C (77c2395a)] Calling AppiumDriver.findElement() with args: ["id","com.Splitwise.SplitwiseMobile:id/emailInputField","77c2395a-c253-4f82-a71f-ccd2a6b81d33"]
+2022-07-17 21:20:44:910 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+2022-07-17 21:20:44:911 [BaseDriver] Waiting up to 0 ms for condition
+2022-07-17 21:20:44:911 [WD Proxy] Matched '/element' to command name 'findElement'
+2022-07-17 21:20:44:911 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:10000/wd/hub/session/3c57b928-7e7e-447e-873b-a207770bd0e5/element] with body: {"strategy":"id","selector":"com.Splitwise.SplitwiseMobile:id/emailInputField","context":"","multiple":false}
+2022-07-17 21:20:44:948 [WD Proxy] Got response with status 200: {"sessionId":"3c57b928-7e7e-447e-873b-a207770bd0e5","value":{"ELEMENT":"00000000-0000-0065-ffff-ffff00000021","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0065-ffff-ffff00000021"}}
+2022-07-17 21:20:44:948 [W3C (77c2395a)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0065-ffff-ffff00000021","ELEMENT":"00000000-0000-0065-ffff-ffff00000021"}
+2022-07-17 21:20:44:949 [HTTP] <-- POST /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element 200 38 ms - 137
+2022-07-17 21:20:44:949 [HTTP] 
+2022-07-17 21:20:44:956 [HTTP] --> POST /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element/00000000-0000-0065-ffff-ffff00000021/value
+2022-07-17 21:20:44:956 [HTTP] {"id":"00000000-0000-0065-ffff-ffff00000021","text":"pradheepren@gmail.com","value":["p","r","a","d","h","e","e","p","r","e","n","@","g","m","a","i","l",".","c","o","m"]}
+2022-07-17 21:20:44:957 [W3C (77c2395a)] Calling AppiumDriver.setValue() with args: [["p","r","a","d","h","e","e","p","r","e","n","@","g","m","a","i","l",".","c","o","m"],"00000000-0000-0065-ffff-ffff00000021","77c2395a-c253-4f82-a71f-ccd2a6b81d33"]
+2022-07-17 21:20:44:957 [WD Proxy] Matched '/element/00000000-0000-0065-ffff-ffff00000021/value' to command name 'setValue'
+2022-07-17 21:20:44:958 [Protocol Converter] Added 'value' property ["p","r","a","d","h","e","e","p","r","e","n","@","g","m","a","i","l",".","c","o","m"] to 'setValue' request body
+2022-07-17 21:20:44:958 [WD Proxy] Proxying [POST /element/00000000-0000-0065-ffff-ffff00000021/value] to [POST http://127.0.0.1:10000/wd/hub/session/3c57b928-7e7e-447e-873b-a207770bd0e5/element/00000000-0000-0065-ffff-ffff00000021/value] with body: {"elementId":"00000000-0000-0065-ffff-ffff00000021","text":"pradheepren@gmail.com","replace":false,"value":["p","r","a","d","h","e","e","p","r","e","n","@","g","m","a","i","l",".","c","o","m"]}
+2022-07-17 21:20:45:083 [WD Proxy] Got response with status 200: {"sessionId":"3c57b928-7e7e-447e-873b-a207770bd0e5","value":null}
+2022-07-17 21:20:45:083 [W3C (77c2395a)] Responding to client with driver.setValue() result: null
+2022-07-17 21:20:45:084 [HTTP] <-- POST /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element/00000000-0000-0065-ffff-ffff00000021/value 200 128 ms - 14
+2022-07-17 21:20:45:085 [HTTP] 
+2022-07-17 21:20:45:086 [HTTP] --> GET /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/context
+2022-07-17 21:20:45:087 [HTTP] {}
+2022-07-17 21:20:45:087 [W3C (77c2395a)] Calling AppiumDriver.getCurrentContext() with args: ["77c2395a-c253-4f82-a71f-ccd2a6b81d33"]
+2022-07-17 21:20:45:087 [W3C (77c2395a)] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+2022-07-17 21:20:45:087 [HTTP] <-- GET /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/context 200 1 ms - 22
+2022-07-17 21:20:45:088 [HTTP] 
+2022-07-17 21:20:45:092 [HTTP] --> POST /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element
+2022-07-17 21:20:45:092 [HTTP] {"using":"id","value":"com.Splitwise.SplitwiseMobile:id/passwordInputField"}
+2022-07-17 21:20:45:092 [W3C (77c2395a)] Calling AppiumDriver.findElement() with args: ["id","com.Splitwise.SplitwiseMobile:id/passwordInputField","77c2395a-c253-4f82-a71f-ccd2a6b81d33"]
+2022-07-17 21:20:45:092 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+2022-07-17 21:20:45:092 [BaseDriver] Waiting up to 0 ms for condition
+2022-07-17 21:20:45:095 [WD Proxy] Matched '/element' to command name 'findElement'
+2022-07-17 21:20:45:095 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:10000/wd/hub/session/3c57b928-7e7e-447e-873b-a207770bd0e5/element] with body: {"strategy":"id","selector":"com.Splitwise.SplitwiseMobile:id/passwordInputField","context":"","multiple":false}
+2022-07-17 21:20:45:723 [WD Proxy] Got response with status 200: {"sessionId":"3c57b928-7e7e-447e-873b-a207770bd0e5","value":{"ELEMENT":"00000000-0000-0065-ffff-ffff00000024","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0065-ffff-ffff00000024"}}
+2022-07-17 21:20:45:724 [W3C (77c2395a)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0065-ffff-ffff00000024","ELEMENT":"00000000-0000-0065-ffff-ffff00000024"}
+2022-07-17 21:20:45:724 [HTTP] <-- POST /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element 200 632 ms - 137
+2022-07-17 21:20:45:724 [HTTP] 
+2022-07-17 21:20:45:726 [HTTP] --> GET /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element/00000000-0000-0065-ffff-ffff00000024/displayed
+2022-07-17 21:20:45:726 [HTTP] {}
+2022-07-17 21:20:45:726 [W3C (77c2395a)] Calling AppiumDriver.elementDisplayed() with args: ["00000000-0000-0065-ffff-ffff00000024","77c2395a-c253-4f82-a71f-ccd2a6b81d33"]
+2022-07-17 21:20:45:728 [WD Proxy] Matched '/element/00000000-0000-0065-ffff-ffff00000024/attribute/displayed' to command name 'getAttribute'
+2022-07-17 21:20:45:728 [WD Proxy] Proxying [GET /element/00000000-0000-0065-ffff-ffff00000024/attribute/displayed] to [GET http://127.0.0.1:10000/wd/hub/session/3c57b928-7e7e-447e-873b-a207770bd0e5/element/00000000-0000-0065-ffff-ffff00000024/attribute/displayed] with no body
+2022-07-17 21:20:45:731 [WD Proxy] Got response with status 200: {"sessionId":"3c57b928-7e7e-447e-873b-a207770bd0e5","value":"true"}
+2022-07-17 21:20:45:731 [W3C (77c2395a)] Responding to client with driver.elementDisplayed() result: true
+2022-07-17 21:20:45:732 [HTTP] <-- GET /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element/00000000-0000-0065-ffff-ffff00000024/displayed 200 6 ms - 14
+2022-07-17 21:20:45:732 [HTTP] 
+2022-07-17 21:20:45:733 [HTTP] --> GET /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/context
+2022-07-17 21:20:45:733 [HTTP] {}
+2022-07-17 21:20:45:733 [W3C (77c2395a)] Calling AppiumDriver.getCurrentContext() with args: ["77c2395a-c253-4f82-a71f-ccd2a6b81d33"]
+2022-07-17 21:20:45:733 [W3C (77c2395a)] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+2022-07-17 21:20:45:734 [HTTP] <-- GET /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/context 200 1 ms - 22
+2022-07-17 21:20:45:734 [HTTP] 
+2022-07-17 21:20:45:737 [HTTP] --> POST /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element
+2022-07-17 21:20:45:737 [HTTP] {"using":"id","value":"com.Splitwise.SplitwiseMobile:id/passwordInputField"}
+2022-07-17 21:20:45:737 [W3C (77c2395a)] Calling AppiumDriver.findElement() with args: ["id","com.Splitwise.SplitwiseMobile:id/passwordInputField","77c2395a-c253-4f82-a71f-ccd2a6b81d33"]
+2022-07-17 21:20:45:737 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+2022-07-17 21:20:45:737 [BaseDriver] Waiting up to 0 ms for condition
+2022-07-17 21:20:45:737 [WD Proxy] Matched '/element' to command name 'findElement'
+2022-07-17 21:20:45:737 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:10000/wd/hub/session/3c57b928-7e7e-447e-873b-a207770bd0e5/element] with body: {"strategy":"id","selector":"com.Splitwise.SplitwiseMobile:id/passwordInputField","context":"","multiple":false}
+2022-07-17 21:20:45:745 [WD Proxy] Got response with status 200: {"sessionId":"3c57b928-7e7e-447e-873b-a207770bd0e5","value":{"ELEMENT":"00000000-0000-0065-ffff-ffff00000024","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0065-ffff-ffff00000024"}}
+2022-07-17 21:20:45:745 [W3C (77c2395a)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0065-ffff-ffff00000024","ELEMENT":"00000000-0000-0065-ffff-ffff00000024"}
+2022-07-17 21:20:45:745 [HTTP] <-- POST /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element 200 9 ms - 137
+2022-07-17 21:20:45:745 [HTTP] 
+2022-07-17 21:20:45:749 [HTTP] --> POST /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element/00000000-0000-0065-ffff-ffff00000024/clear
+2022-07-17 21:20:45:749 [HTTP] {"id":"00000000-0000-0065-ffff-ffff00000024"}
+2022-07-17 21:20:45:749 [W3C (77c2395a)] Calling AppiumDriver.clear() with args: ["00000000-0000-0065-ffff-ffff00000024","77c2395a-c253-4f82-a71f-ccd2a6b81d33"]
+2022-07-17 21:20:45:750 [WD Proxy] Matched '/element/00000000-0000-0065-ffff-ffff00000024/clear' to command name 'clear'
+2022-07-17 21:20:45:750 [WD Proxy] Proxying [POST /element/00000000-0000-0065-ffff-ffff00000024/clear] to [POST http://127.0.0.1:10000/wd/hub/session/3c57b928-7e7e-447e-873b-a207770bd0e5/element/00000000-0000-0065-ffff-ffff00000024/clear] with body: {"elementId":"00000000-0000-0065-ffff-ffff00000024"}
+2022-07-17 21:20:45:764 [WD Proxy] Got response with status 200: {"sessionId":"3c57b928-7e7e-447e-873b-a207770bd0e5","value":null}
+2022-07-17 21:20:45:764 [W3C (77c2395a)] Responding to client with driver.clear() result: null
+2022-07-17 21:20:45:765 [HTTP] <-- POST /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element/00000000-0000-0065-ffff-ffff00000024/clear 200 15 ms - 14
+2022-07-17 21:20:45:765 [HTTP] 
+2022-07-17 21:20:45:767 [HTTP] --> GET /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/context
+2022-07-17 21:20:45:767 [HTTP] {}
+2022-07-17 21:20:45:768 [W3C (77c2395a)] Calling AppiumDriver.getCurrentContext() with args: ["77c2395a-c253-4f82-a71f-ccd2a6b81d33"]
+2022-07-17 21:20:45:768 [W3C (77c2395a)] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+2022-07-17 21:20:45:768 [HTTP] <-- GET /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/context 200 1 ms - 22
+2022-07-17 21:20:45:768 [HTTP] 
+2022-07-17 21:20:45:771 [HTTP] --> POST /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element
+2022-07-17 21:20:45:772 [HTTP] {"using":"id","value":"com.Splitwise.SplitwiseMobile:id/passwordInputField"}
+2022-07-17 21:20:45:772 [W3C (77c2395a)] Calling AppiumDriver.findElement() with args: ["id","com.Splitwise.SplitwiseMobile:id/passwordInputField","77c2395a-c253-4f82-a71f-ccd2a6b81d33"]
+2022-07-17 21:20:45:772 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+2022-07-17 21:20:45:772 [BaseDriver] Waiting up to 0 ms for condition
+2022-07-17 21:20:45:772 [WD Proxy] Matched '/element' to command name 'findElement'
+2022-07-17 21:20:45:773 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:10000/wd/hub/session/3c57b928-7e7e-447e-873b-a207770bd0e5/element] with body: {"strategy":"id","selector":"com.Splitwise.SplitwiseMobile:id/passwordInputField","context":"","multiple":false}
+2022-07-17 21:20:46:265 [WD Proxy] Got response with status 200: {"sessionId":"3c57b928-7e7e-447e-873b-a207770bd0e5","value":{"ELEMENT":"00000000-0000-0065-ffff-ffff00000024","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0065-ffff-ffff00000024"}}
+2022-07-17 21:20:46:266 [W3C (77c2395a)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0065-ffff-ffff00000024","ELEMENT":"00000000-0000-0065-ffff-ffff00000024"}
+2022-07-17 21:20:46:266 [HTTP] <-- POST /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element 200 495 ms - 137
+2022-07-17 21:20:46:267 [HTTP] 
+2022-07-17 21:20:46:272 [HTTP] --> GET /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element/00000000-0000-0065-ffff-ffff00000024/displayed
+2022-07-17 21:20:46:272 [HTTP] {}
+2022-07-17 21:20:46:272 [W3C (77c2395a)] Calling AppiumDriver.elementDisplayed() with args: ["00000000-0000-0065-ffff-ffff00000024","77c2395a-c253-4f82-a71f-ccd2a6b81d33"]
+2022-07-17 21:20:46:273 [WD Proxy] Matched '/element/00000000-0000-0065-ffff-ffff00000024/attribute/displayed' to command name 'getAttribute'
+2022-07-17 21:20:46:273 [WD Proxy] Proxying [GET /element/00000000-0000-0065-ffff-ffff00000024/attribute/displayed] to [GET http://127.0.0.1:10000/wd/hub/session/3c57b928-7e7e-447e-873b-a207770bd0e5/element/00000000-0000-0065-ffff-ffff00000024/attribute/displayed] with no body
+2022-07-17 21:20:46:280 [WD Proxy] Got response with status 200: {"sessionId":"3c57b928-7e7e-447e-873b-a207770bd0e5","value":"true"}
+2022-07-17 21:20:46:280 [W3C (77c2395a)] Responding to client with driver.elementDisplayed() result: true
+2022-07-17 21:20:46:281 [HTTP] <-- GET /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element/00000000-0000-0065-ffff-ffff00000024/displayed 200 9 ms - 14
+2022-07-17 21:20:46:281 [HTTP] 
+2022-07-17 21:20:46:283 [HTTP] --> GET /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/context
+2022-07-17 21:20:46:283 [HTTP] {}
+2022-07-17 21:20:46:283 [W3C (77c2395a)] Calling AppiumDriver.getCurrentContext() with args: ["77c2395a-c253-4f82-a71f-ccd2a6b81d33"]
+2022-07-17 21:20:46:284 [W3C (77c2395a)] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+2022-07-17 21:20:46:284 [HTTP] <-- GET /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/context 200 1 ms - 22
+2022-07-17 21:20:46:284 [HTTP] 
+2022-07-17 21:20:46:288 [HTTP] --> POST /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element
+2022-07-17 21:20:46:288 [HTTP] {"using":"id","value":"com.Splitwise.SplitwiseMobile:id/passwordInputField"}
+2022-07-17 21:20:46:288 [W3C (77c2395a)] Calling AppiumDriver.findElement() with args: ["id","com.Splitwise.SplitwiseMobile:id/passwordInputField","77c2395a-c253-4f82-a71f-ccd2a6b81d33"]
+2022-07-17 21:20:46:288 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+2022-07-17 21:20:46:288 [BaseDriver] Waiting up to 0 ms for condition
+2022-07-17 21:20:46:288 [WD Proxy] Matched '/element' to command name 'findElement'
+2022-07-17 21:20:46:289 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:10000/wd/hub/session/3c57b928-7e7e-447e-873b-a207770bd0e5/element] with body: {"strategy":"id","selector":"com.Splitwise.SplitwiseMobile:id/passwordInputField","context":"","multiple":false}
+2022-07-17 21:20:46:303 [WD Proxy] Got response with status 200: {"sessionId":"3c57b928-7e7e-447e-873b-a207770bd0e5","value":{"ELEMENT":"00000000-0000-0065-ffff-ffff00000024","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0065-ffff-ffff00000024"}}
+2022-07-17 21:20:46:303 [W3C (77c2395a)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0065-ffff-ffff00000024","ELEMENT":"00000000-0000-0065-ffff-ffff00000024"}
+2022-07-17 21:20:46:304 [HTTP] <-- POST /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element 200 16 ms - 137
+2022-07-17 21:20:46:304 [HTTP] 
+2022-07-17 21:20:46:308 [HTTP] --> POST /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element/00000000-0000-0065-ffff-ffff00000024/value
+2022-07-17 21:20:46:308 [HTTP] {"id":"00000000-0000-0065-ffff-ffff00000024","text":"Prady@2022","value":["P","r","a","d","y","@","2","0","2","2"]}
+2022-07-17 21:20:46:309 [W3C (77c2395a)] Calling AppiumDriver.setValue() with args: [["P","r","a","d","y","@","2","0","2","2"],"00000000-0000-0065-ffff-ffff00000024","77c2395a-c253-4f82-a71f-ccd2a6b81d33"]
+2022-07-17 21:20:46:310 [WD Proxy] Matched '/element/00000000-0000-0065-ffff-ffff00000024/value' to command name 'setValue'
+2022-07-17 21:20:46:310 [Protocol Converter] Added 'value' property ["P","r","a","d","y","@","2","0","2","2"] to 'setValue' request body
+2022-07-17 21:20:46:310 [WD Proxy] Proxying [POST /element/00000000-0000-0065-ffff-ffff00000024/value] to [POST http://127.0.0.1:10000/wd/hub/session/3c57b928-7e7e-447e-873b-a207770bd0e5/element/00000000-0000-0065-ffff-ffff00000024/value] with body: {"elementId":"00000000-0000-0065-ffff-ffff00000024","text":"Prady@2022","replace":false,"value":["P","r","a","d","y","@","2","0","2","2"]}
+2022-07-17 21:20:46:320 [WD Proxy] Got response with status 200: {"sessionId":"3c57b928-7e7e-447e-873b-a207770bd0e5","value":null}
+2022-07-17 21:20:46:320 [W3C (77c2395a)] Responding to client with driver.setValue() result: null
+2022-07-17 21:20:46:320 [HTTP] <-- POST /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element/00000000-0000-0065-ffff-ffff00000024/value 200 12 ms - 14
+2022-07-17 21:20:46:320 [HTTP] 
+2022-07-17 21:20:46:322 [HTTP] --> GET /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/context
+2022-07-17 21:20:46:322 [HTTP] {}
+2022-07-17 21:20:46:323 [W3C (77c2395a)] Calling AppiumDriver.getCurrentContext() with args: ["77c2395a-c253-4f82-a71f-ccd2a6b81d33"]
+2022-07-17 21:20:46:323 [W3C (77c2395a)] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+2022-07-17 21:20:46:323 [HTTP] <-- GET /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/context 200 1 ms - 22
+2022-07-17 21:20:46:323 [HTTP] 
+2022-07-17 21:20:46:326 [HTTP] --> POST /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element
+2022-07-17 21:20:46:326 [HTTP] {"using":"id","value":"com.Splitwise.SplitwiseMobile:id/loginButton"}
+2022-07-17 21:20:46:327 [W3C (77c2395a)] Calling AppiumDriver.findElement() with args: ["id","com.Splitwise.SplitwiseMobile:id/loginButton","77c2395a-c253-4f82-a71f-ccd2a6b81d33"]
+2022-07-17 21:20:46:327 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+2022-07-17 21:20:46:327 [BaseDriver] Waiting up to 0 ms for condition
+2022-07-17 21:20:46:327 [WD Proxy] Matched '/element' to command name 'findElement'
+2022-07-17 21:20:46:327 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:10000/wd/hub/session/3c57b928-7e7e-447e-873b-a207770bd0e5/element] with body: {"strategy":"id","selector":"com.Splitwise.SplitwiseMobile:id/loginButton","context":"","multiple":false}
+2022-07-17 21:20:46:834 [WD Proxy] Got response with status 200: {"sessionId":"3c57b928-7e7e-447e-873b-a207770bd0e5","value":{"ELEMENT":"00000000-0000-0065-ffff-ffff00000026","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0065-ffff-ffff00000026"}}
+2022-07-17 21:20:46:835 [W3C (77c2395a)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0065-ffff-ffff00000026","ELEMENT":"00000000-0000-0065-ffff-ffff00000026"}
+2022-07-17 21:20:46:836 [HTTP] <-- POST /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element 200 509 ms - 137
+2022-07-17 21:20:46:836 [HTTP] 
+2022-07-17 21:20:46:842 [HTTP] --> GET /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element/00000000-0000-0065-ffff-ffff00000026/displayed
+2022-07-17 21:20:46:842 [HTTP] {}
+2022-07-17 21:20:46:842 [W3C (77c2395a)] Calling AppiumDriver.elementDisplayed() with args: ["00000000-0000-0065-ffff-ffff00000026","77c2395a-c253-4f82-a71f-ccd2a6b81d33"]
+2022-07-17 21:20:46:844 [WD Proxy] Matched '/element/00000000-0000-0065-ffff-ffff00000026/attribute/displayed' to command name 'getAttribute'
+2022-07-17 21:20:46:845 [WD Proxy] Proxying [GET /element/00000000-0000-0065-ffff-ffff00000026/attribute/displayed] to [GET http://127.0.0.1:10000/wd/hub/session/3c57b928-7e7e-447e-873b-a207770bd0e5/element/00000000-0000-0065-ffff-ffff00000026/attribute/displayed] with no body
+2022-07-17 21:20:46:854 [WD Proxy] Got response with status 200: {"sessionId":"3c57b928-7e7e-447e-873b-a207770bd0e5","value":"true"}
+2022-07-17 21:20:46:855 [W3C (77c2395a)] Responding to client with driver.elementDisplayed() result: true
+2022-07-17 21:20:46:855 [HTTP] <-- GET /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element/00000000-0000-0065-ffff-ffff00000026/displayed 200 13 ms - 14
+2022-07-17 21:20:46:855 [HTTP] 
+2022-07-17 21:20:46:859 [HTTP] --> GET /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/context
+2022-07-17 21:20:46:859 [HTTP] {}
+2022-07-17 21:20:46:860 [W3C (77c2395a)] Calling AppiumDriver.getCurrentContext() with args: ["77c2395a-c253-4f82-a71f-ccd2a6b81d33"]
+2022-07-17 21:20:46:860 [W3C (77c2395a)] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+2022-07-17 21:20:46:861 [HTTP] <-- GET /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/context 200 2 ms - 22
+2022-07-17 21:20:46:862 [HTTP] 
+2022-07-17 21:20:46:865 [HTTP] --> POST /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element
+2022-07-17 21:20:46:865 [HTTP] {"using":"id","value":"com.Splitwise.SplitwiseMobile:id/loginButton"}
+2022-07-17 21:20:46:866 [W3C (77c2395a)] Calling AppiumDriver.findElement() with args: ["id","com.Splitwise.SplitwiseMobile:id/loginButton","77c2395a-c253-4f82-a71f-ccd2a6b81d33"]
+2022-07-17 21:20:46:866 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+2022-07-17 21:20:46:866 [BaseDriver] Waiting up to 0 ms for condition
+2022-07-17 21:20:46:867 [WD Proxy] Matched '/element' to command name 'findElement'
+2022-07-17 21:20:46:867 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:10000/wd/hub/session/3c57b928-7e7e-447e-873b-a207770bd0e5/element] with body: {"strategy":"id","selector":"com.Splitwise.SplitwiseMobile:id/loginButton","context":"","multiple":false}
+2022-07-17 21:20:46:883 [WD Proxy] Got response with status 200: {"sessionId":"3c57b928-7e7e-447e-873b-a207770bd0e5","value":{"ELEMENT":"00000000-0000-0065-ffff-ffff00000026","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0065-ffff-ffff00000026"}}
+2022-07-17 21:20:46:883 [W3C (77c2395a)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0065-ffff-ffff00000026","ELEMENT":"00000000-0000-0065-ffff-ffff00000026"}
+2022-07-17 21:20:46:884 [HTTP] <-- POST /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element 200 18 ms - 137
+2022-07-17 21:20:46:884 [HTTP] 
+2022-07-17 21:20:46:889 [HTTP] --> POST /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element/00000000-0000-0065-ffff-ffff00000026/click
+2022-07-17 21:20:46:889 [HTTP] {"id":"00000000-0000-0065-ffff-ffff00000026"}
+2022-07-17 21:20:46:890 [W3C (77c2395a)] Calling AppiumDriver.click() with args: ["00000000-0000-0065-ffff-ffff00000026","77c2395a-c253-4f82-a71f-ccd2a6b81d33"]
+2022-07-17 21:20:46:890 [WD Proxy] Matched '/element/00000000-0000-0065-ffff-ffff00000026/click' to command name 'click'
+2022-07-17 21:20:46:890 [WD Proxy] Proxying [POST /element/00000000-0000-0065-ffff-ffff00000026/click] to [POST http://127.0.0.1:10000/wd/hub/session/3c57b928-7e7e-447e-873b-a207770bd0e5/element/00000000-0000-0065-ffff-ffff00000026/click] with body: {"element":"00000000-0000-0065-ffff-ffff00000026"}
+2022-07-17 21:20:46:929 [WD Proxy] Got response with status 200: {"sessionId":"3c57b928-7e7e-447e-873b-a207770bd0e5","value":null}
+2022-07-17 21:20:46:930 [W3C (77c2395a)] Responding to client with driver.click() result: null
+2022-07-17 21:20:46:931 [HTTP] <-- POST /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element/00000000-0000-0065-ffff-ffff00000026/click 200 41 ms - 14
+2022-07-17 21:20:46:931 [HTTP] 
+2022-07-17 21:20:46:937 [HTTP] --> GET /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/context
+2022-07-17 21:20:46:937 [HTTP] {}
+2022-07-17 21:20:46:938 [W3C (77c2395a)] Calling AppiumDriver.getCurrentContext() with args: ["77c2395a-c253-4f82-a71f-ccd2a6b81d33"]
+2022-07-17 21:20:46:938 [W3C (77c2395a)] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+2022-07-17 21:20:46:939 [HTTP] <-- GET /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/context 200 1 ms - 22
+2022-07-17 21:20:46:939 [HTTP] 
+2022-07-17 21:20:46:944 [HTTP] --> POST /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element
+2022-07-17 21:20:46:944 [HTTP] {"using":"id","value":"com.Splitwise.SplitwiseMobile:id/middleText"}
+2022-07-17 21:20:46:944 [W3C (77c2395a)] Calling AppiumDriver.findElement() with args: ["id","com.Splitwise.SplitwiseMobile:id/middleText","77c2395a-c253-4f82-a71f-ccd2a6b81d33"]
+2022-07-17 21:20:46:944 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+2022-07-17 21:20:46:944 [BaseDriver] Waiting up to 0 ms for condition
+2022-07-17 21:20:46:945 [WD Proxy] Matched '/element' to command name 'findElement'
+2022-07-17 21:20:46:945 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:10000/wd/hub/session/3c57b928-7e7e-447e-873b-a207770bd0e5/element] with body: {"strategy":"id","selector":"com.Splitwise.SplitwiseMobile:id/middleText","context":"","multiple":false}
+2022-07-17 21:20:47:286 [WD Proxy] Got response with status 404: {"sessionId":"3c57b928-7e7e-447e-873b-a207770bd0e5","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:70)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:266)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:260)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.chann...
+2022-07-17 21:20:47:286 [W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2022-07-17 21:20:47:300 [W3C (77c2395a)] Encountered internal error running command: NoSuchElementError: An element could not be located on the page using the given search parameters.
+2022-07-17 21:20:47:300 [W3C (77c2395a)]     at AndroidUiautomator2Driver.findElOrEls (/opt/homebrew/lib/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)
+2022-07-17 21:20:47:300 [W3C (77c2395a)]     at processTicksAndRejections (internal/process/task_queues.js:95:5)
+2022-07-17 21:20:47:300 [W3C (77c2395a)]     at AndroidUiautomator2Driver.findElOrElsWithProcessing (/opt/homebrew/lib/node_modules/appium/node_modules/appium-base-driver/lib/basedriver/commands/find.js:33:12)
+2022-07-17 21:20:47:300 [W3C (77c2395a)]     at AndroidUiautomator2Driver.findElement (/opt/homebrew/lib/node_modules/appium/node_modules/appium-base-driver/lib/basedriver/commands/find.js:53:10)
+2022-07-17 21:20:47:302 [HTTP] <-- POST /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element 404 357 ms - 789
+2022-07-17 21:20:47:302 [HTTP] 
+2022-07-17 21:20:47:840 [HTTP] --> POST /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element
+2022-07-17 21:20:47:840 [HTTP] {"using":"id","value":"com.Splitwise.SplitwiseMobile:id/middleText"}
+2022-07-17 21:20:47:841 [W3C (77c2395a)] Calling AppiumDriver.findElement() with args: ["id","com.Splitwise.SplitwiseMobile:id/middleText","77c2395a-c253-4f82-a71f-ccd2a6b81d33"]
+2022-07-17 21:20:47:841 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+2022-07-17 21:20:47:841 [BaseDriver] Waiting up to 0 ms for condition
+2022-07-17 21:20:47:842 [WD Proxy] Matched '/element' to command name 'findElement'
+2022-07-17 21:20:47:842 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:10000/wd/hub/session/3c57b928-7e7e-447e-873b-a207770bd0e5/element] with body: {"strategy":"id","selector":"com.Splitwise.SplitwiseMobile:id/middleText","context":"","multiple":false}
+2022-07-17 21:20:47:864 [WD Proxy] Got response with status 404: {"sessionId":"3c57b928-7e7e-447e-873b-a207770bd0e5","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:70)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:266)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:260)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.chann...
+2022-07-17 21:20:47:864 [W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2022-07-17 21:20:47:865 [W3C (77c2395a)] Encountered internal error running command: NoSuchElementError: An element could not be located on the page using the given search parameters.
+2022-07-17 21:20:47:865 [W3C (77c2395a)]     at AndroidUiautomator2Driver.findElOrEls (/opt/homebrew/lib/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)
+2022-07-17 21:20:47:865 [W3C (77c2395a)]     at processTicksAndRejections (internal/process/task_queues.js:95:5)
+2022-07-17 21:20:47:865 [W3C (77c2395a)]     at AndroidUiautomator2Driver.findElOrElsWithProcessing (/opt/homebrew/lib/node_modules/appium/node_modules/appium-base-driver/lib/basedriver/commands/find.js:33:12)
+2022-07-17 21:20:47:865 [W3C (77c2395a)]     at AndroidUiautomator2Driver.findElement (/opt/homebrew/lib/node_modules/appium/node_modules/appium-base-driver/lib/basedriver/commands/find.js:53:10)
+2022-07-17 21:20:47:865 [HTTP] <-- POST /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element 404 25 ms - 789
+2022-07-17 21:20:47:865 [HTTP] 
+2022-07-17 21:20:48:389 [HTTP] --> POST /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element
+2022-07-17 21:20:48:390 [HTTP] {"using":"id","value":"com.Splitwise.SplitwiseMobile:id/middleText"}
+2022-07-17 21:20:48:390 [W3C (77c2395a)] Calling AppiumDriver.findElement() with args: ["id","com.Splitwise.SplitwiseMobile:id/middleText","77c2395a-c253-4f82-a71f-ccd2a6b81d33"]
+2022-07-17 21:20:48:390 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+2022-07-17 21:20:48:390 [BaseDriver] Waiting up to 0 ms for condition
+2022-07-17 21:20:48:391 [WD Proxy] Matched '/element' to command name 'findElement'
+2022-07-17 21:20:48:391 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:10000/wd/hub/session/3c57b928-7e7e-447e-873b-a207770bd0e5/element] with body: {"strategy":"id","selector":"com.Splitwise.SplitwiseMobile:id/middleText","context":"","multiple":false}
+2022-07-17 21:20:49:379 [WD Proxy] Got response with status 200: {"sessionId":"3c57b928-7e7e-447e-873b-a207770bd0e5","value":{"ELEMENT":"00000000-0000-0068-ffff-ffff00000099","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0068-ffff-ffff00000099"}}
+2022-07-17 21:20:49:380 [W3C (77c2395a)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0068-ffff-ffff00000099","ELEMENT":"00000000-0000-0068-ffff-ffff00000099"}
+2022-07-17 21:20:49:385 [HTTP] <-- POST /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element 200 992 ms - 137
+2022-07-17 21:20:49:385 [HTTP] 
+2022-07-17 21:20:49:394 [HTTP] --> GET /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element/00000000-0000-0068-ffff-ffff00000099/displayed
+2022-07-17 21:20:49:394 [HTTP] {}
+2022-07-17 21:20:49:395 [W3C (77c2395a)] Calling AppiumDriver.elementDisplayed() with args: ["00000000-0000-0068-ffff-ffff00000099","77c2395a-c253-4f82-a71f-ccd2a6b81d33"]
+2022-07-17 21:20:49:395 [WD Proxy] Matched '/element/00000000-0000-0068-ffff-ffff00000099/attribute/displayed' to command name 'getAttribute'
+2022-07-17 21:20:49:395 [WD Proxy] Proxying [GET /element/00000000-0000-0068-ffff-ffff00000099/attribute/displayed] to [GET http://127.0.0.1:10000/wd/hub/session/3c57b928-7e7e-447e-873b-a207770bd0e5/element/00000000-0000-0068-ffff-ffff00000099/attribute/displayed] with no body
+2022-07-17 21:20:49:411 [WD Proxy] Got response with status 200: {"sessionId":"3c57b928-7e7e-447e-873b-a207770bd0e5","value":"true"}
+2022-07-17 21:20:49:411 [W3C (77c2395a)] Responding to client with driver.elementDisplayed() result: true
+2022-07-17 21:20:49:412 [HTTP] <-- GET /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element/00000000-0000-0068-ffff-ffff00000099/displayed 200 18 ms - 14
+2022-07-17 21:20:49:412 [HTTP] 
+2022-07-17 21:20:49:414 [HTTP] --> GET /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/context
+2022-07-17 21:20:49:414 [HTTP] {}
+2022-07-17 21:20:49:414 [W3C (77c2395a)] Calling AppiumDriver.getCurrentContext() with args: ["77c2395a-c253-4f82-a71f-ccd2a6b81d33"]
+2022-07-17 21:20:49:414 [W3C (77c2395a)] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+2022-07-17 21:20:49:415 [HTTP] <-- GET /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/context 200 1 ms - 22
+2022-07-17 21:20:49:415 [HTTP] 
+2022-07-17 21:20:49:422 [HTTP] --> POST /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element
+2022-07-17 21:20:49:422 [HTTP] {"using":"id","value":"com.Splitwise.SplitwiseMobile:id/middleText"}
+2022-07-17 21:20:49:422 [W3C (77c2395a)] Calling AppiumDriver.findElement() with args: ["id","com.Splitwise.SplitwiseMobile:id/middleText","77c2395a-c253-4f82-a71f-ccd2a6b81d33"]
+2022-07-17 21:20:49:422 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+2022-07-17 21:20:49:422 [BaseDriver] Waiting up to 0 ms for condition
+2022-07-17 21:20:49:422 [WD Proxy] Matched '/element' to command name 'findElement'
+2022-07-17 21:20:49:422 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:10000/wd/hub/session/3c57b928-7e7e-447e-873b-a207770bd0e5/element] with body: {"strategy":"id","selector":"com.Splitwise.SplitwiseMobile:id/middleText","context":"","multiple":false}
+2022-07-17 21:20:49:438 [WD Proxy] Got response with status 200: {"sessionId":"3c57b928-7e7e-447e-873b-a207770bd0e5","value":{"ELEMENT":"00000000-0000-0068-ffff-ffff00000099","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0068-ffff-ffff00000099"}}
+2022-07-17 21:20:49:439 [W3C (77c2395a)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0068-ffff-ffff00000099","ELEMENT":"00000000-0000-0068-ffff-ffff00000099"}
+2022-07-17 21:20:49:439 [HTTP] <-- POST /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element 200 17 ms - 137
+2022-07-17 21:20:49:439 [HTTP] 
+2022-07-17 21:20:49:443 [HTTP] --> POST /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element/00000000-0000-0068-ffff-ffff00000099/click
+2022-07-17 21:20:49:443 [HTTP] {"id":"00000000-0000-0068-ffff-ffff00000099"}
+2022-07-17 21:20:49:444 [W3C (77c2395a)] Calling AppiumDriver.click() with args: ["00000000-0000-0068-ffff-ffff00000099","77c2395a-c253-4f82-a71f-ccd2a6b81d33"]
+2022-07-17 21:20:49:444 [WD Proxy] Matched '/element/00000000-0000-0068-ffff-ffff00000099/click' to command name 'click'
+2022-07-17 21:20:49:444 [WD Proxy] Proxying [POST /element/00000000-0000-0068-ffff-ffff00000099/click] to [POST http://127.0.0.1:10000/wd/hub/session/3c57b928-7e7e-447e-873b-a207770bd0e5/element/00000000-0000-0068-ffff-ffff00000099/click] with body: {"element":"00000000-0000-0068-ffff-ffff00000099"}
+2022-07-17 21:20:50:379 [WD Proxy] Got response with status 200: {"sessionId":"3c57b928-7e7e-447e-873b-a207770bd0e5","value":null}
+2022-07-17 21:20:50:380 [W3C (77c2395a)] Responding to client with driver.click() result: null
+2022-07-17 21:20:50:380 [HTTP] <-- POST /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element/00000000-0000-0068-ffff-ffff00000099/click 200 937 ms - 14
+2022-07-17 21:20:50:380 [HTTP] 
+2022-07-17 21:20:50:391 [HTTP] --> POST /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/touch/perform
+2022-07-17 21:20:50:391 [HTTP] {"actions":[{"action":"tap","options":{"x":1000,"y":1000}},{"action":"wait","options":{"ms":1000}}]}
+2022-07-17 21:20:50:392 [W3C (77c2395a)] Calling AppiumDriver.performTouch() with args: [[{"action":"tap","options":{"x":1000,"y":1000}},{"action":"wait","options":{"ms":1000}}],"77c2395a-c253-4f82-a71f-ccd2a6b81d33"]
+2022-07-17 21:20:50:399 [WD Proxy] Proxying [POST /appium/tap] to [POST http://127.0.0.1:10000/wd/hub/session/3c57b928-7e7e-447e-873b-a207770bd0e5/appium/tap] with body: {"x":1000,"y":1000,"undefined":null}
+2022-07-17 21:20:51:484 [WD Proxy] Got response with status 200: {"sessionId":"3c57b928-7e7e-447e-873b-a207770bd0e5","value":null}
+2022-07-17 21:20:52:500 [W3C (77c2395a)] Responding to client with driver.performTouch() result: null
+2022-07-17 21:20:52:503 [HTTP] <-- POST /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/touch/perform 200 2111 ms - 14
+2022-07-17 21:20:52:503 [HTTP] 
+2022-07-17 21:20:52:523 [HTTP] --> POST /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/touch/perform
+2022-07-17 21:20:52:523 [HTTP] {"actions":[{"action":"tap","options":{"x":1000,"y":1000}},{"action":"wait","options":{"ms":1000}}]}
+2022-07-17 21:20:52:526 [W3C (77c2395a)] Calling AppiumDriver.performTouch() with args: [[{"action":"tap","options":{"x":1000,"y":1000}},{"action":"wait","options":{"ms":1000}}],"77c2395a-c253-4f82-a71f-ccd2a6b81d33"]
+2022-07-17 21:20:52:528 [WD Proxy] Proxying [POST /appium/tap] to [POST http://127.0.0.1:10000/wd/hub/session/3c57b928-7e7e-447e-873b-a207770bd0e5/appium/tap] with body: {"x":1000,"y":1000,"undefined":null}
+2022-07-17 21:20:53:601 [WD Proxy] Got response with status 200: {"sessionId":"3c57b928-7e7e-447e-873b-a207770bd0e5","value":null}
+2022-07-17 21:20:54:608 [W3C (77c2395a)] Responding to client with driver.performTouch() result: null
+2022-07-17 21:20:54:608 [HTTP] <-- POST /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/touch/perform 200 2085 ms - 14
+2022-07-17 21:20:54:608 [HTTP] 
+2022-07-17 21:20:54:616 [HTTP] --> POST /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/touch/perform
+2022-07-17 21:20:54:616 [HTTP] {"actions":[{"action":"tap","options":{"x":1000,"y":1000}},{"action":"wait","options":{"ms":1000}}]}
+2022-07-17 21:20:54:616 [W3C (77c2395a)] Calling AppiumDriver.performTouch() with args: [[{"action":"tap","options":{"x":1000,"y":1000}},{"action":"wait","options":{"ms":1000}}],"77c2395a-c253-4f82-a71f-ccd2a6b81d33"]
+2022-07-17 21:20:54:617 [WD Proxy] Proxying [POST /appium/tap] to [POST http://127.0.0.1:10000/wd/hub/session/3c57b928-7e7e-447e-873b-a207770bd0e5/appium/tap] with body: {"x":1000,"y":1000,"undefined":null}
+2022-07-17 21:20:56:366 [WD Proxy] Got response with status 200: {"sessionId":"3c57b928-7e7e-447e-873b-a207770bd0e5","value":null}
+2022-07-17 21:20:57:372 [W3C (77c2395a)] Responding to client with driver.performTouch() result: null
+2022-07-17 21:20:57:374 [HTTP] <-- POST /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/touch/perform 200 2757 ms - 14
+2022-07-17 21:20:57:374 [HTTP] 
+2022-07-17 21:20:57:411 [HTTP] --> POST /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element
+2022-07-17 21:20:57:411 [HTTP] {"using":"-android uiautomator","value":"new UiScrollable(new UiSelector().scrollable(true)).scrollIntoView(new UiSelector().textContains(\"Test Group\"));"}
+2022-07-17 21:20:57:412 [W3C (77c2395a)] Calling AppiumDriver.findElement() with args: ["-android uiautomator","new UiScrollable(new UiSelector().scrollable(true)).scrollIntoView(new UiSelector().textContains(\"Test Group\"));","77c2395a-c253-4f82-a71f-ccd2a6b81d33"]
+2022-07-17 21:20:57:412 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+2022-07-17 21:20:57:412 [BaseDriver] Waiting up to 0 ms for condition
+2022-07-17 21:20:57:413 [WD Proxy] Matched '/element' to command name 'findElement'
+2022-07-17 21:20:57:413 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:10000/wd/hub/session/3c57b928-7e7e-447e-873b-a207770bd0e5/element] with body: {"strategy":"-android uiautomator","selector":"new UiScrollable(new UiSelector().scrollable(true)).scrollIntoView(new UiSelector().textContains(\"Test Group\"));","context":"","multiple":false}
+2022-07-17 21:20:57:448 [WD Proxy] Got response with status 200: {"sessionId":"3c57b928-7e7e-447e-873b-a207770bd0e5","value":{"ELEMENT":"00000000-0000-0067-ffff-ffff0000007a","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0067-ffff-ffff0000007a"}}
+2022-07-17 21:20:57:448 [W3C (77c2395a)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0067-ffff-ffff0000007a","ELEMENT":"00000000-0000-0067-ffff-ffff0000007a"}
+2022-07-17 21:20:57:449 [HTTP] <-- POST /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element 200 37 ms - 137
+2022-07-17 21:20:57:449 [HTTP] 
+2022-07-17 21:20:57:450 [HTTP] --> GET /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element/00000000-0000-0067-ffff-ffff0000007a/displayed
+2022-07-17 21:20:57:451 [HTTP] {}
+2022-07-17 21:20:57:451 [W3C (77c2395a)] Calling AppiumDriver.elementDisplayed() with args: ["00000000-0000-0067-ffff-ffff0000007a","77c2395a-c253-4f82-a71f-ccd2a6b81d33"]
+2022-07-17 21:20:57:451 [WD Proxy] Matched '/element/00000000-0000-0067-ffff-ffff0000007a/attribute/displayed' to command name 'getAttribute'
+2022-07-17 21:20:57:451 [WD Proxy] Proxying [GET /element/00000000-0000-0067-ffff-ffff0000007a/attribute/displayed] to [GET http://127.0.0.1:10000/wd/hub/session/3c57b928-7e7e-447e-873b-a207770bd0e5/element/00000000-0000-0067-ffff-ffff0000007a/attribute/displayed] with no body
+2022-07-17 21:20:58:067 [WD Proxy] Got response with status 200: {"sessionId":"3c57b928-7e7e-447e-873b-a207770bd0e5","value":"true"}
+2022-07-17 21:20:58:067 [W3C (77c2395a)] Responding to client with driver.elementDisplayed() result: true
+2022-07-17 21:20:58:070 [HTTP] <-- GET /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element/00000000-0000-0067-ffff-ffff0000007a/displayed 200 617 ms - 14
+2022-07-17 21:20:58:070 [HTTP] 
+2022-07-17 21:20:58:072 [HTTP] --> POST /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element/00000000-0000-0067-ffff-ffff0000007a/click
+2022-07-17 21:20:58:072 [HTTP] {"id":"00000000-0000-0067-ffff-ffff0000007a"}
+2022-07-17 21:20:58:073 [W3C (77c2395a)] Calling AppiumDriver.click() with args: ["00000000-0000-0067-ffff-ffff0000007a","77c2395a-c253-4f82-a71f-ccd2a6b81d33"]
+2022-07-17 21:20:58:073 [WD Proxy] Matched '/element/00000000-0000-0067-ffff-ffff0000007a/click' to command name 'click'
+2022-07-17 21:20:58:074 [WD Proxy] Proxying [POST /element/00000000-0000-0067-ffff-ffff0000007a/click] to [POST http://127.0.0.1:10000/wd/hub/session/3c57b928-7e7e-447e-873b-a207770bd0e5/element/00000000-0000-0067-ffff-ffff0000007a/click] with body: {"element":"00000000-0000-0067-ffff-ffff0000007a"}
+2022-07-17 21:20:58:113 [WD Proxy] Got response with status 200: {"sessionId":"3c57b928-7e7e-447e-873b-a207770bd0e5","value":null}
+2022-07-17 21:20:58:113 [W3C (77c2395a)] Responding to client with driver.click() result: null
+2022-07-17 21:20:58:114 [HTTP] <-- POST /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element/00000000-0000-0067-ffff-ffff0000007a/click 200 42 ms - 14
+2022-07-17 21:20:58:114 [HTTP] 
+2022-07-17 21:20:58:117 [HTTP] --> GET /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/context
+2022-07-17 21:20:58:118 [HTTP] {}
+2022-07-17 21:20:58:118 [W3C (77c2395a)] Calling AppiumDriver.getCurrentContext() with args: ["77c2395a-c253-4f82-a71f-ccd2a6b81d33"]
+2022-07-17 21:20:58:118 [W3C (77c2395a)] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+2022-07-17 21:20:58:119 [HTTP] <-- GET /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/context 200 1 ms - 22
+2022-07-17 21:20:58:119 [HTTP] 
+2022-07-17 21:20:58:123 [HTTP] --> POST /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element
+2022-07-17 21:20:58:123 [HTTP] {"using":"id","value":"com.Splitwise.SplitwiseMobile:id/fab"}
+2022-07-17 21:20:58:123 [W3C (77c2395a)] Calling AppiumDriver.findElement() with args: ["id","com.Splitwise.SplitwiseMobile:id/fab","77c2395a-c253-4f82-a71f-ccd2a6b81d33"]
+2022-07-17 21:20:58:124 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+2022-07-17 21:20:58:124 [BaseDriver] Waiting up to 0 ms for condition
+2022-07-17 21:20:58:124 [WD Proxy] Matched '/element' to command name 'findElement'
+2022-07-17 21:20:58:124 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:10000/wd/hub/session/3c57b928-7e7e-447e-873b-a207770bd0e5/element] with body: {"strategy":"id","selector":"com.Splitwise.SplitwiseMobile:id/fab","context":"","multiple":false}
+2022-07-17 21:20:59:311 [WD Proxy] Got response with status 200: {"sessionId":"3c57b928-7e7e-447e-873b-a207770bd0e5","value":{"ELEMENT":"00000000-0000-0067-ffff-ffff00000041","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0067-ffff-ffff00000041"}}
+2022-07-17 21:20:59:312 [W3C (77c2395a)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0067-ffff-ffff00000041","ELEMENT":"00000000-0000-0067-ffff-ffff00000041"}
+2022-07-17 21:20:59:313 [HTTP] <-- POST /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element 200 1189 ms - 137
+2022-07-17 21:20:59:313 [HTTP] 
+2022-07-17 21:20:59:318 [HTTP] --> GET /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element/00000000-0000-0067-ffff-ffff00000041/displayed
+2022-07-17 21:20:59:318 [HTTP] {}
+2022-07-17 21:20:59:318 [W3C (77c2395a)] Calling AppiumDriver.elementDisplayed() with args: ["00000000-0000-0067-ffff-ffff00000041","77c2395a-c253-4f82-a71f-ccd2a6b81d33"]
+2022-07-17 21:20:59:319 [WD Proxy] Matched '/element/00000000-0000-0067-ffff-ffff00000041/attribute/displayed' to command name 'getAttribute'
+2022-07-17 21:20:59:319 [WD Proxy] Proxying [GET /element/00000000-0000-0067-ffff-ffff00000041/attribute/displayed] to [GET http://127.0.0.1:10000/wd/hub/session/3c57b928-7e7e-447e-873b-a207770bd0e5/element/00000000-0000-0067-ffff-ffff00000041/attribute/displayed] with no body
+2022-07-17 21:20:59:326 [WD Proxy] Got response with status 200: {"sessionId":"3c57b928-7e7e-447e-873b-a207770bd0e5","value":"true"}
+2022-07-17 21:20:59:327 [W3C (77c2395a)] Responding to client with driver.elementDisplayed() result: true
+2022-07-17 21:20:59:328 [HTTP] <-- GET /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element/00000000-0000-0067-ffff-ffff00000041/displayed 200 10 ms - 14
+2022-07-17 21:20:59:328 [HTTP] 
+2022-07-17 21:20:59:333 [HTTP] --> GET /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/context
+2022-07-17 21:20:59:333 [HTTP] {}
+2022-07-17 21:20:59:334 [W3C (77c2395a)] Calling AppiumDriver.getCurrentContext() with args: ["77c2395a-c253-4f82-a71f-ccd2a6b81d33"]
+2022-07-17 21:20:59:334 [W3C (77c2395a)] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+2022-07-17 21:20:59:335 [HTTP] <-- GET /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/context 200 1 ms - 22
+2022-07-17 21:20:59:335 [HTTP] 
+2022-07-17 21:20:59:339 [HTTP] --> POST /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element
+2022-07-17 21:20:59:339 [HTTP] {"using":"id","value":"com.Splitwise.SplitwiseMobile:id/fab"}
+2022-07-17 21:20:59:339 [W3C (77c2395a)] Calling AppiumDriver.findElement() with args: ["id","com.Splitwise.SplitwiseMobile:id/fab","77c2395a-c253-4f82-a71f-ccd2a6b81d33"]
+2022-07-17 21:20:59:339 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+2022-07-17 21:20:59:339 [BaseDriver] Waiting up to 0 ms for condition
+2022-07-17 21:20:59:339 [WD Proxy] Matched '/element' to command name 'findElement'
+2022-07-17 21:20:59:339 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:10000/wd/hub/session/3c57b928-7e7e-447e-873b-a207770bd0e5/element] with body: {"strategy":"id","selector":"com.Splitwise.SplitwiseMobile:id/fab","context":"","multiple":false}
+2022-07-17 21:20:59:353 [WD Proxy] Got response with status 200: {"sessionId":"3c57b928-7e7e-447e-873b-a207770bd0e5","value":{"ELEMENT":"00000000-0000-0067-ffff-ffff00000041","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0067-ffff-ffff00000041"}}
+2022-07-17 21:20:59:353 [W3C (77c2395a)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0067-ffff-ffff00000041","ELEMENT":"00000000-0000-0067-ffff-ffff00000041"}
+2022-07-17 21:20:59:354 [HTTP] <-- POST /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element 200 15 ms - 137
+2022-07-17 21:20:59:354 [HTTP] 
+2022-07-17 21:20:59:358 [HTTP] --> POST /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element/00000000-0000-0067-ffff-ffff00000041/click
+2022-07-17 21:20:59:358 [HTTP] {"id":"00000000-0000-0067-ffff-ffff00000041"}
+2022-07-17 21:20:59:358 [W3C (77c2395a)] Calling AppiumDriver.click() with args: ["00000000-0000-0067-ffff-ffff00000041","77c2395a-c253-4f82-a71f-ccd2a6b81d33"]
+2022-07-17 21:20:59:358 [WD Proxy] Matched '/element/00000000-0000-0067-ffff-ffff00000041/click' to command name 'click'
+2022-07-17 21:20:59:359 [WD Proxy] Proxying [POST /element/00000000-0000-0067-ffff-ffff00000041/click] to [POST http://127.0.0.1:10000/wd/hub/session/3c57b928-7e7e-447e-873b-a207770bd0e5/element/00000000-0000-0067-ffff-ffff00000041/click] with body: {"element":"00000000-0000-0067-ffff-ffff00000041"}
+2022-07-17 21:20:59:455 [WD Proxy] Got response with status 200: {"sessionId":"3c57b928-7e7e-447e-873b-a207770bd0e5","value":null}
+2022-07-17 21:20:59:455 [W3C (77c2395a)] Responding to client with driver.click() result: null
+2022-07-17 21:20:59:456 [HTTP] <-- POST /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element/00000000-0000-0067-ffff-ffff00000041/click 200 98 ms - 14
+2022-07-17 21:20:59:456 [HTTP] 
+2022-07-17 21:20:59:461 [HTTP] --> GET /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/context
+2022-07-17 21:20:59:461 [HTTP] {}
+2022-07-17 21:20:59:461 [W3C (77c2395a)] Calling AppiumDriver.getCurrentContext() with args: ["77c2395a-c253-4f82-a71f-ccd2a6b81d33"]
+2022-07-17 21:20:59:461 [W3C (77c2395a)] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+2022-07-17 21:20:59:462 [HTTP] <-- GET /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/context 200 1 ms - 22
+2022-07-17 21:20:59:462 [HTTP] 
+2022-07-17 21:20:59:466 [HTTP] --> POST /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element
+2022-07-17 21:20:59:467 [HTTP] {"using":"id","value":"com.Splitwise.SplitwiseMobile:id/descriptionView"}
+2022-07-17 21:20:59:468 [W3C (77c2395a)] Calling AppiumDriver.findElement() with args: ["id","com.Splitwise.SplitwiseMobile:id/descriptionView","77c2395a-c253-4f82-a71f-ccd2a6b81d33"]
+2022-07-17 21:20:59:468 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+2022-07-17 21:20:59:468 [BaseDriver] Waiting up to 0 ms for condition
+2022-07-17 21:20:59:468 [WD Proxy] Matched '/element' to command name 'findElement'
+2022-07-17 21:20:59:468 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:10000/wd/hub/session/3c57b928-7e7e-447e-873b-a207770bd0e5/element] with body: {"strategy":"id","selector":"com.Splitwise.SplitwiseMobile:id/descriptionView","context":"","multiple":false}
+2022-07-17 21:20:59:799 [WD Proxy] Got response with status 404: {"sessionId":"3c57b928-7e7e-447e-873b-a207770bd0e5","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:70)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:266)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:260)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.chann...
+2022-07-17 21:20:59:799 [W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2022-07-17 21:20:59:800 [W3C (77c2395a)] Encountered internal error running command: NoSuchElementError: An element could not be located on the page using the given search parameters.
+2022-07-17 21:20:59:800 [W3C (77c2395a)]     at AndroidUiautomator2Driver.findElOrEls (/opt/homebrew/lib/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)
+2022-07-17 21:20:59:800 [W3C (77c2395a)]     at runMicrotasks (<anonymous>)
+2022-07-17 21:20:59:800 [W3C (77c2395a)]     at processTicksAndRejections (internal/process/task_queues.js:95:5)
+2022-07-17 21:20:59:800 [W3C (77c2395a)]     at AndroidUiautomator2Driver.findElOrElsWithProcessing (/opt/homebrew/lib/node_modules/appium/node_modules/appium-base-driver/lib/basedriver/commands/find.js:33:12)
+2022-07-17 21:20:59:800 [W3C (77c2395a)]     at AndroidUiautomator2Driver.findElement (/opt/homebrew/lib/node_modules/appium/node_modules/appium-base-driver/lib/basedriver/commands/find.js:53:10)
+2022-07-17 21:20:59:801 [HTTP] <-- POST /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element 404 335 ms - 825
+2022-07-17 21:20:59:801 [HTTP] 
+2022-07-17 21:21:00:317 [HTTP] --> POST /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element
+2022-07-17 21:21:00:317 [HTTP] {"using":"id","value":"com.Splitwise.SplitwiseMobile:id/descriptionView"}
+2022-07-17 21:21:00:318 [W3C (77c2395a)] Calling AppiumDriver.findElement() with args: ["id","com.Splitwise.SplitwiseMobile:id/descriptionView","77c2395a-c253-4f82-a71f-ccd2a6b81d33"]
+2022-07-17 21:21:00:318 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+2022-07-17 21:21:00:318 [BaseDriver] Waiting up to 0 ms for condition
+2022-07-17 21:21:00:319 [WD Proxy] Matched '/element' to command name 'findElement'
+2022-07-17 21:21:00:319 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:10000/wd/hub/session/3c57b928-7e7e-447e-873b-a207770bd0e5/element] with body: {"strategy":"id","selector":"com.Splitwise.SplitwiseMobile:id/descriptionView","context":"","multiple":false}
+2022-07-17 21:21:01:521 [WD Proxy] Got response with status 200: {"sessionId":"3c57b928-7e7e-447e-873b-a207770bd0e5","value":{"ELEMENT":"00000000-0000-0069-ffff-ffff00000106","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0069-ffff-ffff00000106"}}
+2022-07-17 21:21:01:522 [W3C (77c2395a)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0069-ffff-ffff00000106","ELEMENT":"00000000-0000-0069-ffff-ffff00000106"}
+2022-07-17 21:21:01:528 [HTTP] <-- POST /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element 200 1206 ms - 137
+2022-07-17 21:21:01:528 [HTTP] 
+2022-07-17 21:21:01:532 [HTTP] --> GET /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element/00000000-0000-0069-ffff-ffff00000106/displayed
+2022-07-17 21:21:01:533 [HTTP] {}
+2022-07-17 21:21:01:535 [W3C (77c2395a)] Calling AppiumDriver.elementDisplayed() with args: ["00000000-0000-0069-ffff-ffff00000106","77c2395a-c253-4f82-a71f-ccd2a6b81d33"]
+2022-07-17 21:21:01:536 [WD Proxy] Matched '/element/00000000-0000-0069-ffff-ffff00000106/attribute/displayed' to command name 'getAttribute'
+2022-07-17 21:21:01:537 [WD Proxy] Proxying [GET /element/00000000-0000-0069-ffff-ffff00000106/attribute/displayed] to [GET http://127.0.0.1:10000/wd/hub/session/3c57b928-7e7e-447e-873b-a207770bd0e5/element/00000000-0000-0069-ffff-ffff00000106/attribute/displayed] with no body
+2022-07-17 21:21:01:568 [WD Proxy] Got response with status 200: {"sessionId":"3c57b928-7e7e-447e-873b-a207770bd0e5","value":"true"}
+2022-07-17 21:21:01:568 [W3C (77c2395a)] Responding to client with driver.elementDisplayed() result: true
+2022-07-17 21:21:01:569 [HTTP] <-- GET /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element/00000000-0000-0069-ffff-ffff00000106/displayed 200 37 ms - 14
+2022-07-17 21:21:01:569 [HTTP] 
+2022-07-17 21:21:01:570 [HTTP] --> GET /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/context
+2022-07-17 21:21:01:570 [HTTP] {}
+2022-07-17 21:21:01:571 [W3C (77c2395a)] Calling AppiumDriver.getCurrentContext() with args: ["77c2395a-c253-4f82-a71f-ccd2a6b81d33"]
+2022-07-17 21:21:01:571 [W3C (77c2395a)] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+2022-07-17 21:21:01:572 [HTTP] <-- GET /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/context 200 1 ms - 22
+2022-07-17 21:21:01:572 [HTTP] 
+2022-07-17 21:21:01:575 [HTTP] --> POST /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element
+2022-07-17 21:21:01:575 [HTTP] {"using":"id","value":"com.Splitwise.SplitwiseMobile:id/descriptionView"}
+2022-07-17 21:21:01:575 [W3C (77c2395a)] Calling AppiumDriver.findElement() with args: ["id","com.Splitwise.SplitwiseMobile:id/descriptionView","77c2395a-c253-4f82-a71f-ccd2a6b81d33"]
+2022-07-17 21:21:01:575 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+2022-07-17 21:21:01:576 [BaseDriver] Waiting up to 0 ms for condition
+2022-07-17 21:21:01:576 [WD Proxy] Matched '/element' to command name 'findElement'
+2022-07-17 21:21:01:576 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:10000/wd/hub/session/3c57b928-7e7e-447e-873b-a207770bd0e5/element] with body: {"strategy":"id","selector":"com.Splitwise.SplitwiseMobile:id/descriptionView","context":"","multiple":false}
+2022-07-17 21:21:01:605 [WD Proxy] Got response with status 200: {"sessionId":"3c57b928-7e7e-447e-873b-a207770bd0e5","value":{"ELEMENT":"00000000-0000-0069-ffff-ffff00000106","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0069-ffff-ffff00000106"}}
+2022-07-17 21:21:01:605 [W3C (77c2395a)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0069-ffff-ffff00000106","ELEMENT":"00000000-0000-0069-ffff-ffff00000106"}
+2022-07-17 21:21:01:606 [HTTP] <-- POST /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element 200 31 ms - 137
+2022-07-17 21:21:01:606 [HTTP] 
+2022-07-17 21:21:01:611 [HTTP] --> POST /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element/00000000-0000-0069-ffff-ffff00000106/clear
+2022-07-17 21:21:01:611 [HTTP] {"id":"00000000-0000-0069-ffff-ffff00000106"}
+2022-07-17 21:21:01:612 [W3C (77c2395a)] Calling AppiumDriver.clear() with args: ["00000000-0000-0069-ffff-ffff00000106","77c2395a-c253-4f82-a71f-ccd2a6b81d33"]
+2022-07-17 21:21:01:612 [WD Proxy] Matched '/element/00000000-0000-0069-ffff-ffff00000106/clear' to command name 'clear'
+2022-07-17 21:21:01:612 [WD Proxy] Proxying [POST /element/00000000-0000-0069-ffff-ffff00000106/clear] to [POST http://127.0.0.1:10000/wd/hub/session/3c57b928-7e7e-447e-873b-a207770bd0e5/element/00000000-0000-0069-ffff-ffff00000106/clear] with body: {"elementId":"00000000-0000-0069-ffff-ffff00000106"}
+2022-07-17 21:21:01:650 [WD Proxy] Got response with status 200: {"sessionId":"3c57b928-7e7e-447e-873b-a207770bd0e5","value":null}
+2022-07-17 21:21:01:650 [W3C (77c2395a)] Responding to client with driver.clear() result: null
+2022-07-17 21:21:01:650 [HTTP] <-- POST /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element/00000000-0000-0069-ffff-ffff00000106/clear 200 39 ms - 14
+2022-07-17 21:21:01:650 [HTTP] 
+2022-07-17 21:21:01:656 [HTTP] --> GET /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/context
+2022-07-17 21:21:01:656 [HTTP] {}
+2022-07-17 21:21:01:656 [W3C (77c2395a)] Calling AppiumDriver.getCurrentContext() with args: ["77c2395a-c253-4f82-a71f-ccd2a6b81d33"]
+2022-07-17 21:21:01:657 [W3C (77c2395a)] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+2022-07-17 21:21:01:658 [HTTP] <-- GET /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/context 200 1 ms - 22
+2022-07-17 21:21:01:658 [HTTP] 
+2022-07-17 21:21:01:662 [HTTP] --> POST /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element
+2022-07-17 21:21:01:662 [HTTP] {"using":"id","value":"com.Splitwise.SplitwiseMobile:id/descriptionView"}
+2022-07-17 21:21:01:662 [W3C (77c2395a)] Calling AppiumDriver.findElement() with args: ["id","com.Splitwise.SplitwiseMobile:id/descriptionView","77c2395a-c253-4f82-a71f-ccd2a6b81d33"]
+2022-07-17 21:21:01:663 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+2022-07-17 21:21:01:663 [BaseDriver] Waiting up to 0 ms for condition
+2022-07-17 21:21:01:663 [WD Proxy] Matched '/element' to command name 'findElement'
+2022-07-17 21:21:01:663 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:10000/wd/hub/session/3c57b928-7e7e-447e-873b-a207770bd0e5/element] with body: {"strategy":"id","selector":"com.Splitwise.SplitwiseMobile:id/descriptionView","context":"","multiple":false}
+2022-07-17 21:21:01:776 [WD Proxy] Got response with status 200: {"sessionId":"3c57b928-7e7e-447e-873b-a207770bd0e5","value":{"ELEMENT":"00000000-0000-0069-ffff-ffff00000106","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0069-ffff-ffff00000106"}}
+2022-07-17 21:21:01:776 [W3C (77c2395a)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0069-ffff-ffff00000106","ELEMENT":"00000000-0000-0069-ffff-ffff00000106"}
+2022-07-17 21:21:01:777 [HTTP] <-- POST /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element 200 115 ms - 137
+2022-07-17 21:21:01:778 [HTTP] 
+2022-07-17 21:21:01:779 [HTTP] --> GET /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element/00000000-0000-0069-ffff-ffff00000106/displayed
+2022-07-17 21:21:01:779 [HTTP] {}
+2022-07-17 21:21:01:779 [W3C (77c2395a)] Calling AppiumDriver.elementDisplayed() with args: ["00000000-0000-0069-ffff-ffff00000106","77c2395a-c253-4f82-a71f-ccd2a6b81d33"]
+2022-07-17 21:21:01:780 [WD Proxy] Matched '/element/00000000-0000-0069-ffff-ffff00000106/attribute/displayed' to command name 'getAttribute'
+2022-07-17 21:21:01:780 [WD Proxy] Proxying [GET /element/00000000-0000-0069-ffff-ffff00000106/attribute/displayed] to [GET http://127.0.0.1:10000/wd/hub/session/3c57b928-7e7e-447e-873b-a207770bd0e5/element/00000000-0000-0069-ffff-ffff00000106/attribute/displayed] with no body
+2022-07-17 21:21:02:325 [WD Proxy] Got response with status 200: {"sessionId":"3c57b928-7e7e-447e-873b-a207770bd0e5","value":"true"}
+2022-07-17 21:21:02:325 [W3C (77c2395a)] Responding to client with driver.elementDisplayed() result: true
+2022-07-17 21:21:02:326 [HTTP] <-- GET /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element/00000000-0000-0069-ffff-ffff00000106/displayed 200 547 ms - 14
+2022-07-17 21:21:02:326 [HTTP] 
+2022-07-17 21:21:02:332 [HTTP] --> GET /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/context
+2022-07-17 21:21:02:332 [HTTP] {}
+2022-07-17 21:21:02:333 [W3C (77c2395a)] Calling AppiumDriver.getCurrentContext() with args: ["77c2395a-c253-4f82-a71f-ccd2a6b81d33"]
+2022-07-17 21:21:02:334 [W3C (77c2395a)] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+2022-07-17 21:21:02:335 [HTTP] <-- GET /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/context 200 3 ms - 22
+2022-07-17 21:21:02:335 [HTTP] 
+2022-07-17 21:21:02:342 [HTTP] --> POST /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element
+2022-07-17 21:21:02:342 [HTTP] {"using":"id","value":"com.Splitwise.SplitwiseMobile:id/descriptionView"}
+2022-07-17 21:21:02:343 [W3C (77c2395a)] Calling AppiumDriver.findElement() with args: ["id","com.Splitwise.SplitwiseMobile:id/descriptionView","77c2395a-c253-4f82-a71f-ccd2a6b81d33"]
+2022-07-17 21:21:02:343 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+2022-07-17 21:21:02:344 [BaseDriver] Waiting up to 0 ms for condition
+2022-07-17 21:21:02:344 [WD Proxy] Matched '/element' to command name 'findElement'
+2022-07-17 21:21:02:345 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:10000/wd/hub/session/3c57b928-7e7e-447e-873b-a207770bd0e5/element] with body: {"strategy":"id","selector":"com.Splitwise.SplitwiseMobile:id/descriptionView","context":"","multiple":false}
+2022-07-17 21:21:02:351 [WD Proxy] Got response with status 200: {"sessionId":"3c57b928-7e7e-447e-873b-a207770bd0e5","value":{"ELEMENT":"00000000-0000-0069-ffff-ffff00000106","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0069-ffff-ffff00000106"}}
+2022-07-17 21:21:02:351 [W3C (77c2395a)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0069-ffff-ffff00000106","ELEMENT":"00000000-0000-0069-ffff-ffff00000106"}
+2022-07-17 21:21:02:352 [HTTP] <-- POST /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element 200 10 ms - 137
+2022-07-17 21:21:02:352 [HTTP] 
+2022-07-17 21:21:02:359 [HTTP] --> POST /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element/00000000-0000-0069-ffff-ffff00000106/value
+2022-07-17 21:21:02:359 [HTTP] {"id":"00000000-0000-0069-ffff-ffff00000106","text":"lunch","value":["l","u","n","c","h"]}
+2022-07-17 21:21:02:359 [W3C (77c2395a)] Calling AppiumDriver.setValue() with args: [["l","u","n","c","h"],"00000000-0000-0069-ffff-ffff00000106","77c2395a-c253-4f82-a71f-ccd2a6b81d33"]
+2022-07-17 21:21:02:359 [WD Proxy] Matched '/element/00000000-0000-0069-ffff-ffff00000106/value' to command name 'setValue'
+2022-07-17 21:21:02:359 [Protocol Converter] Added 'value' property ["l","u","n","c","h"] to 'setValue' request body
+2022-07-17 21:21:02:360 [WD Proxy] Proxying [POST /element/00000000-0000-0069-ffff-ffff00000106/value] to [POST http://127.0.0.1:10000/wd/hub/session/3c57b928-7e7e-447e-873b-a207770bd0e5/element/00000000-0000-0069-ffff-ffff00000106/value] with body: {"elementId":"00000000-0000-0069-ffff-ffff00000106","text":"lunch","replace":false,"value":["l","u","n","c","h"]}
+2022-07-17 21:21:02:992 [WD Proxy] Got response with status 200: {"sessionId":"3c57b928-7e7e-447e-873b-a207770bd0e5","value":null}
+2022-07-17 21:21:02:992 [W3C (77c2395a)] Responding to client with driver.setValue() result: null
+2022-07-17 21:21:02:993 [HTTP] <-- POST /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element/00000000-0000-0069-ffff-ffff00000106/value 200 634 ms - 14
+2022-07-17 21:21:02:993 [HTTP] 
+2022-07-17 21:21:02:998 [HTTP] --> GET /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/context
+2022-07-17 21:21:02:998 [HTTP] {}
+2022-07-17 21:21:03:000 [W3C (77c2395a)] Calling AppiumDriver.getCurrentContext() with args: ["77c2395a-c253-4f82-a71f-ccd2a6b81d33"]
+2022-07-17 21:21:03:003 [W3C (77c2395a)] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+2022-07-17 21:21:03:006 [HTTP] <-- GET /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/context 200 7 ms - 22
+2022-07-17 21:21:03:006 [HTTP] 
+2022-07-17 21:21:03:014 [HTTP] --> POST /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element
+2022-07-17 21:21:03:014 [HTTP] {"using":"id","value":"com.Splitwise.SplitwiseMobile:id/amountView"}
+2022-07-17 21:21:03:015 [W3C (77c2395a)] Calling AppiumDriver.findElement() with args: ["id","com.Splitwise.SplitwiseMobile:id/amountView","77c2395a-c253-4f82-a71f-ccd2a6b81d33"]
+2022-07-17 21:21:03:016 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+2022-07-17 21:21:03:016 [BaseDriver] Waiting up to 0 ms for condition
+2022-07-17 21:21:03:017 [WD Proxy] Matched '/element' to command name 'findElement'
+2022-07-17 21:21:03:018 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:10000/wd/hub/session/3c57b928-7e7e-447e-873b-a207770bd0e5/element] with body: {"strategy":"id","selector":"com.Splitwise.SplitwiseMobile:id/amountView","context":"","multiple":false}
+2022-07-17 21:21:03:834 [WD Proxy] Got response with status 200: {"sessionId":"3c57b928-7e7e-447e-873b-a207770bd0e5","value":{"ELEMENT":"00000000-0000-0069-ffff-ffff00000108","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0069-ffff-ffff00000108"}}
+2022-07-17 21:21:03:834 [W3C (77c2395a)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0069-ffff-ffff00000108","ELEMENT":"00000000-0000-0069-ffff-ffff00000108"}
+2022-07-17 21:21:03:835 [HTTP] <-- POST /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element 200 821 ms - 137
+2022-07-17 21:21:03:835 [HTTP] 
+2022-07-17 21:21:03:837 [HTTP] --> GET /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element/00000000-0000-0069-ffff-ffff00000108/displayed
+2022-07-17 21:21:03:838 [HTTP] {}
+2022-07-17 21:21:03:838 [W3C (77c2395a)] Calling AppiumDriver.elementDisplayed() with args: ["00000000-0000-0069-ffff-ffff00000108","77c2395a-c253-4f82-a71f-ccd2a6b81d33"]
+2022-07-17 21:21:03:839 [WD Proxy] Matched '/element/00000000-0000-0069-ffff-ffff00000108/attribute/displayed' to command name 'getAttribute'
+2022-07-17 21:21:03:839 [WD Proxy] Proxying [GET /element/00000000-0000-0069-ffff-ffff00000108/attribute/displayed] to [GET http://127.0.0.1:10000/wd/hub/session/3c57b928-7e7e-447e-873b-a207770bd0e5/element/00000000-0000-0069-ffff-ffff00000108/attribute/displayed] with no body
+2022-07-17 21:21:03:849 [WD Proxy] Got response with status 200: {"sessionId":"3c57b928-7e7e-447e-873b-a207770bd0e5","value":"true"}
+2022-07-17 21:21:03:850 [W3C (77c2395a)] Responding to client with driver.elementDisplayed() result: true
+2022-07-17 21:21:03:851 [HTTP] <-- GET /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element/00000000-0000-0069-ffff-ffff00000108/displayed 200 13 ms - 14
+2022-07-17 21:21:03:851 [HTTP] 
+2022-07-17 21:21:03:854 [HTTP] --> GET /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/context
+2022-07-17 21:21:03:854 [HTTP] {}
+2022-07-17 21:21:03:855 [W3C (77c2395a)] Calling AppiumDriver.getCurrentContext() with args: ["77c2395a-c253-4f82-a71f-ccd2a6b81d33"]
+2022-07-17 21:21:03:856 [W3C (77c2395a)] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+2022-07-17 21:21:03:857 [HTTP] <-- GET /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/context 200 2 ms - 22
+2022-07-17 21:21:03:858 [HTTP] 
+2022-07-17 21:21:03:863 [HTTP] --> POST /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element
+2022-07-17 21:21:03:863 [HTTP] {"using":"id","value":"com.Splitwise.SplitwiseMobile:id/amountView"}
+2022-07-17 21:21:03:863 [W3C (77c2395a)] Calling AppiumDriver.findElement() with args: ["id","com.Splitwise.SplitwiseMobile:id/amountView","77c2395a-c253-4f82-a71f-ccd2a6b81d33"]
+2022-07-17 21:21:03:863 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+2022-07-17 21:21:03:864 [BaseDriver] Waiting up to 0 ms for condition
+2022-07-17 21:21:03:864 [WD Proxy] Matched '/element' to command name 'findElement'
+2022-07-17 21:21:03:864 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:10000/wd/hub/session/3c57b928-7e7e-447e-873b-a207770bd0e5/element] with body: {"strategy":"id","selector":"com.Splitwise.SplitwiseMobile:id/amountView","context":"","multiple":false}
+2022-07-17 21:21:03:875 [WD Proxy] Got response with status 200: {"sessionId":"3c57b928-7e7e-447e-873b-a207770bd0e5","value":{"ELEMENT":"00000000-0000-0069-ffff-ffff00000108","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0069-ffff-ffff00000108"}}
+2022-07-17 21:21:03:875 [W3C (77c2395a)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0069-ffff-ffff00000108","ELEMENT":"00000000-0000-0069-ffff-ffff00000108"}
+2022-07-17 21:21:03:876 [HTTP] <-- POST /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element 200 13 ms - 137
+2022-07-17 21:21:03:876 [HTTP] 
+2022-07-17 21:21:03:879 [HTTP] --> POST /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element/00000000-0000-0069-ffff-ffff00000108/clear
+2022-07-17 21:21:03:879 [HTTP] {"id":"00000000-0000-0069-ffff-ffff00000108"}
+2022-07-17 21:21:03:880 [W3C (77c2395a)] Calling AppiumDriver.clear() with args: ["00000000-0000-0069-ffff-ffff00000108","77c2395a-c253-4f82-a71f-ccd2a6b81d33"]
+2022-07-17 21:21:03:880 [WD Proxy] Matched '/element/00000000-0000-0069-ffff-ffff00000108/clear' to command name 'clear'
+2022-07-17 21:21:03:881 [WD Proxy] Proxying [POST /element/00000000-0000-0069-ffff-ffff00000108/clear] to [POST http://127.0.0.1:10000/wd/hub/session/3c57b928-7e7e-447e-873b-a207770bd0e5/element/00000000-0000-0069-ffff-ffff00000108/clear] with body: {"elementId":"00000000-0000-0069-ffff-ffff00000108"}
+2022-07-17 21:21:03:889 [WD Proxy] Got response with status 200: {"sessionId":"3c57b928-7e7e-447e-873b-a207770bd0e5","value":null}
+2022-07-17 21:21:03:889 [W3C (77c2395a)] Responding to client with driver.clear() result: null
+2022-07-17 21:21:03:890 [HTTP] <-- POST /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element/00000000-0000-0069-ffff-ffff00000108/clear 200 10 ms - 14
+2022-07-17 21:21:03:890 [HTTP] 
+2022-07-17 21:21:03:892 [HTTP] --> GET /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/context
+2022-07-17 21:21:03:892 [HTTP] {}
+2022-07-17 21:21:03:892 [W3C (77c2395a)] Calling AppiumDriver.getCurrentContext() with args: ["77c2395a-c253-4f82-a71f-ccd2a6b81d33"]
+2022-07-17 21:21:03:892 [W3C (77c2395a)] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+2022-07-17 21:21:03:893 [HTTP] <-- GET /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/context 200 1 ms - 22
+2022-07-17 21:21:03:893 [HTTP] 
+2022-07-17 21:21:03:897 [HTTP] --> POST /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element
+2022-07-17 21:21:03:897 [HTTP] {"using":"id","value":"com.Splitwise.SplitwiseMobile:id/amountView"}
+2022-07-17 21:21:03:898 [W3C (77c2395a)] Calling AppiumDriver.findElement() with args: ["id","com.Splitwise.SplitwiseMobile:id/amountView","77c2395a-c253-4f82-a71f-ccd2a6b81d33"]
+2022-07-17 21:21:03:898 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+2022-07-17 21:21:03:898 [BaseDriver] Waiting up to 0 ms for condition
+2022-07-17 21:21:03:898 [WD Proxy] Matched '/element' to command name 'findElement'
+2022-07-17 21:21:03:898 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:10000/wd/hub/session/3c57b928-7e7e-447e-873b-a207770bd0e5/element] with body: {"strategy":"id","selector":"com.Splitwise.SplitwiseMobile:id/amountView","context":"","multiple":false}
+2022-07-17 21:21:04:501 [WD Proxy] Got response with status 200: {"sessionId":"3c57b928-7e7e-447e-873b-a207770bd0e5","value":{"ELEMENT":"00000000-0000-0069-ffff-ffff00000108","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0069-ffff-ffff00000108"}}
+2022-07-17 21:21:04:501 [W3C (77c2395a)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0069-ffff-ffff00000108","ELEMENT":"00000000-0000-0069-ffff-ffff00000108"}
+2022-07-17 21:21:04:502 [HTTP] <-- POST /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element 200 605 ms - 137
+2022-07-17 21:21:04:502 [HTTP] 
+2022-07-17 21:21:04:505 [HTTP] --> GET /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element/00000000-0000-0069-ffff-ffff00000108/displayed
+2022-07-17 21:21:04:505 [HTTP] {}
+2022-07-17 21:21:04:506 [W3C (77c2395a)] Calling AppiumDriver.elementDisplayed() with args: ["00000000-0000-0069-ffff-ffff00000108","77c2395a-c253-4f82-a71f-ccd2a6b81d33"]
+2022-07-17 21:21:04:507 [WD Proxy] Matched '/element/00000000-0000-0069-ffff-ffff00000108/attribute/displayed' to command name 'getAttribute'
+2022-07-17 21:21:04:507 [WD Proxy] Proxying [GET /element/00000000-0000-0069-ffff-ffff00000108/attribute/displayed] to [GET http://127.0.0.1:10000/wd/hub/session/3c57b928-7e7e-447e-873b-a207770bd0e5/element/00000000-0000-0069-ffff-ffff00000108/attribute/displayed] with no body
+2022-07-17 21:21:04:515 [WD Proxy] Got response with status 200: {"sessionId":"3c57b928-7e7e-447e-873b-a207770bd0e5","value":"true"}
+2022-07-17 21:21:04:516 [W3C (77c2395a)] Responding to client with driver.elementDisplayed() result: true
+2022-07-17 21:21:04:517 [HTTP] <-- GET /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element/00000000-0000-0069-ffff-ffff00000108/displayed 200 12 ms - 14
+2022-07-17 21:21:04:518 [HTTP] 
+2022-07-17 21:21:04:523 [HTTP] --> GET /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/context
+2022-07-17 21:21:04:523 [HTTP] {}
+2022-07-17 21:21:04:524 [W3C (77c2395a)] Calling AppiumDriver.getCurrentContext() with args: ["77c2395a-c253-4f82-a71f-ccd2a6b81d33"]
+2022-07-17 21:21:04:524 [W3C (77c2395a)] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+2022-07-17 21:21:04:526 [HTTP] <-- GET /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/context 200 2 ms - 22
+2022-07-17 21:21:04:527 [HTTP] 
+2022-07-17 21:21:04:530 [HTTP] --> POST /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element
+2022-07-17 21:21:04:530 [HTTP] {"using":"id","value":"com.Splitwise.SplitwiseMobile:id/amountView"}
+2022-07-17 21:21:04:531 [W3C (77c2395a)] Calling AppiumDriver.findElement() with args: ["id","com.Splitwise.SplitwiseMobile:id/amountView","77c2395a-c253-4f82-a71f-ccd2a6b81d33"]
+2022-07-17 21:21:04:531 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+2022-07-17 21:21:04:531 [BaseDriver] Waiting up to 0 ms for condition
+2022-07-17 21:21:04:532 [WD Proxy] Matched '/element' to command name 'findElement'
+2022-07-17 21:21:04:532 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:10000/wd/hub/session/3c57b928-7e7e-447e-873b-a207770bd0e5/element] with body: {"strategy":"id","selector":"com.Splitwise.SplitwiseMobile:id/amountView","context":"","multiple":false}
+2022-07-17 21:21:04:542 [WD Proxy] Got response with status 200: {"sessionId":"3c57b928-7e7e-447e-873b-a207770bd0e5","value":{"ELEMENT":"00000000-0000-0069-ffff-ffff00000108","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0069-ffff-ffff00000108"}}
+2022-07-17 21:21:04:543 [W3C (77c2395a)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0069-ffff-ffff00000108","ELEMENT":"00000000-0000-0069-ffff-ffff00000108"}
+2022-07-17 21:21:04:543 [HTTP] <-- POST /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element 200 13 ms - 137
+2022-07-17 21:21:04:543 [HTTP] 
+2022-07-17 21:21:04:550 [HTTP] --> POST /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element/00000000-0000-0069-ffff-ffff00000108/value
+2022-07-17 21:21:04:550 [HTTP] {"id":"00000000-0000-0069-ffff-ffff00000108","text":"10","value":["1","0"]}
+2022-07-17 21:21:04:550 [W3C (77c2395a)] Calling AppiumDriver.setValue() with args: [["1","0"],"00000000-0000-0069-ffff-ffff00000108","77c2395a-c253-4f82-a71f-ccd2a6b81d33"]
+2022-07-17 21:21:04:553 [WD Proxy] Matched '/element/00000000-0000-0069-ffff-ffff00000108/value' to command name 'setValue'
+2022-07-17 21:21:04:553 [Protocol Converter] Added 'value' property ["1","0"] to 'setValue' request body
+2022-07-17 21:21:04:554 [WD Proxy] Proxying [POST /element/00000000-0000-0069-ffff-ffff00000108/value] to [POST http://127.0.0.1:10000/wd/hub/session/3c57b928-7e7e-447e-873b-a207770bd0e5/element/00000000-0000-0069-ffff-ffff00000108/value] with body: {"elementId":"00000000-0000-0069-ffff-ffff00000108","text":"10","replace":false,"value":["1","0"]}
+2022-07-17 21:21:05:181 [WD Proxy] Got response with status 200: {"sessionId":"3c57b928-7e7e-447e-873b-a207770bd0e5","value":null}
+2022-07-17 21:21:05:182 [W3C (77c2395a)] Responding to client with driver.setValue() result: null
+2022-07-17 21:21:05:183 [HTTP] <-- POST /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element/00000000-0000-0069-ffff-ffff00000108/value 200 632 ms - 14
+2022-07-17 21:21:05:183 [HTTP] 
+2022-07-17 21:21:05:185 [HTTP] --> GET /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/context
+2022-07-17 21:21:05:185 [HTTP] {}
+2022-07-17 21:21:05:185 [W3C (77c2395a)] Calling AppiumDriver.getCurrentContext() with args: ["77c2395a-c253-4f82-a71f-ccd2a6b81d33"]
+2022-07-17 21:21:05:186 [W3C (77c2395a)] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+2022-07-17 21:21:05:186 [HTTP] <-- GET /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/context 200 1 ms - 22
+2022-07-17 21:21:05:186 [HTTP] 
+2022-07-17 21:21:05:191 [HTTP] --> POST /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element
+2022-07-17 21:21:05:191 [HTTP] {"using":"id","value":"com.Splitwise.SplitwiseMobile:id/doneAction"}
+2022-07-17 21:21:05:191 [W3C (77c2395a)] Calling AppiumDriver.findElement() with args: ["id","com.Splitwise.SplitwiseMobile:id/doneAction","77c2395a-c253-4f82-a71f-ccd2a6b81d33"]
+2022-07-17 21:21:05:191 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+2022-07-17 21:21:05:191 [BaseDriver] Waiting up to 0 ms for condition
+2022-07-17 21:21:05:192 [WD Proxy] Matched '/element' to command name 'findElement'
+2022-07-17 21:21:05:192 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:10000/wd/hub/session/3c57b928-7e7e-447e-873b-a207770bd0e5/element] with body: {"strategy":"id","selector":"com.Splitwise.SplitwiseMobile:id/doneAction","context":"","multiple":false}
+2022-07-17 21:21:05:692 [WD Proxy] Got response with status 200: {"sessionId":"3c57b928-7e7e-447e-873b-a207770bd0e5","value":{"ELEMENT":"00000000-0000-0069-ffff-ffff00000120","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0069-ffff-ffff00000120"}}
+2022-07-17 21:21:05:693 [W3C (77c2395a)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0069-ffff-ffff00000120","ELEMENT":"00000000-0000-0069-ffff-ffff00000120"}
+2022-07-17 21:21:05:693 [HTTP] <-- POST /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element 200 503 ms - 137
+2022-07-17 21:21:05:694 [HTTP] 
+2022-07-17 21:21:05:698 [HTTP] --> GET /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element/00000000-0000-0069-ffff-ffff00000120/displayed
+2022-07-17 21:21:05:698 [HTTP] {}
+2022-07-17 21:21:05:699 [W3C (77c2395a)] Calling AppiumDriver.elementDisplayed() with args: ["00000000-0000-0069-ffff-ffff00000120","77c2395a-c253-4f82-a71f-ccd2a6b81d33"]
+2022-07-17 21:21:05:700 [WD Proxy] Matched '/element/00000000-0000-0069-ffff-ffff00000120/attribute/displayed' to command name 'getAttribute'
+2022-07-17 21:21:05:701 [WD Proxy] Proxying [GET /element/00000000-0000-0069-ffff-ffff00000120/attribute/displayed] to [GET http://127.0.0.1:10000/wd/hub/session/3c57b928-7e7e-447e-873b-a207770bd0e5/element/00000000-0000-0069-ffff-ffff00000120/attribute/displayed] with no body
+2022-07-17 21:21:05:708 [WD Proxy] Got response with status 200: {"sessionId":"3c57b928-7e7e-447e-873b-a207770bd0e5","value":"true"}
+2022-07-17 21:21:05:709 [W3C (77c2395a)] Responding to client with driver.elementDisplayed() result: true
+2022-07-17 21:21:05:710 [HTTP] <-- GET /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element/00000000-0000-0069-ffff-ffff00000120/displayed 200 11 ms - 14
+2022-07-17 21:21:05:710 [HTTP] 
+2022-07-17 21:21:05:715 [HTTP] --> GET /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/context
+2022-07-17 21:21:05:715 [HTTP] {}
+2022-07-17 21:21:05:716 [W3C (77c2395a)] Calling AppiumDriver.getCurrentContext() with args: ["77c2395a-c253-4f82-a71f-ccd2a6b81d33"]
+2022-07-17 21:21:05:717 [W3C (77c2395a)] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+2022-07-17 21:21:05:718 [HTTP] <-- GET /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/context 200 2 ms - 22
+2022-07-17 21:21:05:718 [HTTP] 
+2022-07-17 21:21:05:724 [HTTP] --> POST /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element
+2022-07-17 21:21:05:724 [HTTP] {"using":"id","value":"com.Splitwise.SplitwiseMobile:id/doneAction"}
+2022-07-17 21:21:05:724 [W3C (77c2395a)] Calling AppiumDriver.findElement() with args: ["id","com.Splitwise.SplitwiseMobile:id/doneAction","77c2395a-c253-4f82-a71f-ccd2a6b81d33"]
+2022-07-17 21:21:05:724 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+2022-07-17 21:21:05:725 [BaseDriver] Waiting up to 0 ms for condition
+2022-07-17 21:21:05:725 [WD Proxy] Matched '/element' to command name 'findElement'
+2022-07-17 21:21:05:726 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:10000/wd/hub/session/3c57b928-7e7e-447e-873b-a207770bd0e5/element] with body: {"strategy":"id","selector":"com.Splitwise.SplitwiseMobile:id/doneAction","context":"","multiple":false}
+2022-07-17 21:21:05:738 [WD Proxy] Got response with status 200: {"sessionId":"3c57b928-7e7e-447e-873b-a207770bd0e5","value":{"ELEMENT":"00000000-0000-0069-ffff-ffff00000120","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0069-ffff-ffff00000120"}}
+2022-07-17 21:21:05:738 [W3C (77c2395a)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0069-ffff-ffff00000120","ELEMENT":"00000000-0000-0069-ffff-ffff00000120"}
+2022-07-17 21:21:05:739 [HTTP] <-- POST /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element 200 15 ms - 137
+2022-07-17 21:21:05:739 [HTTP] 
+2022-07-17 21:21:05:742 [HTTP] --> POST /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element/00000000-0000-0069-ffff-ffff00000120/click
+2022-07-17 21:21:05:743 [HTTP] {"id":"00000000-0000-0069-ffff-ffff00000120"}
+2022-07-17 21:21:05:743 [W3C (77c2395a)] Calling AppiumDriver.click() with args: ["00000000-0000-0069-ffff-ffff00000120","77c2395a-c253-4f82-a71f-ccd2a6b81d33"]
+2022-07-17 21:21:05:743 [WD Proxy] Matched '/element/00000000-0000-0069-ffff-ffff00000120/click' to command name 'click'
+2022-07-17 21:21:05:743 [WD Proxy] Proxying [POST /element/00000000-0000-0069-ffff-ffff00000120/click] to [POST http://127.0.0.1:10000/wd/hub/session/3c57b928-7e7e-447e-873b-a207770bd0e5/element/00000000-0000-0069-ffff-ffff00000120/click] with body: {"element":"00000000-0000-0069-ffff-ffff00000120"}
+2022-07-17 21:21:05:778 [WD Proxy] Got response with status 200: {"sessionId":"3c57b928-7e7e-447e-873b-a207770bd0e5","value":null}
+2022-07-17 21:21:05:778 [W3C (77c2395a)] Responding to client with driver.click() result: null
+2022-07-17 21:21:05:779 [HTTP] <-- POST /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element/00000000-0000-0069-ffff-ffff00000120/click 200 36 ms - 14
+2022-07-17 21:21:05:779 [HTTP] 
+2022-07-17 21:21:05:793 [HTTP] --> GET /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/context
+2022-07-17 21:21:05:793 [HTTP] {}
+2022-07-17 21:21:05:794 [W3C (77c2395a)] Calling AppiumDriver.getCurrentContext() with args: ["77c2395a-c253-4f82-a71f-ccd2a6b81d33"]
+2022-07-17 21:21:05:794 [W3C (77c2395a)] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+2022-07-17 21:21:05:794 [HTTP] <-- GET /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/context 200 1 ms - 22
+2022-07-17 21:21:05:794 [HTTP] 
+2022-07-17 21:21:05:802 [HTTP] --> POST /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element
+2022-07-17 21:21:05:803 [HTTP] {"using":"id","value":"com.Splitwise.SplitwiseMobile:id/friends"}
+2022-07-17 21:21:05:804 [W3C (77c2395a)] Calling AppiumDriver.findElement() with args: ["id","com.Splitwise.SplitwiseMobile:id/friends","77c2395a-c253-4f82-a71f-ccd2a6b81d33"]
+2022-07-17 21:21:05:804 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+2022-07-17 21:21:05:805 [BaseDriver] Waiting up to 0 ms for condition
+2022-07-17 21:21:05:805 [WD Proxy] Matched '/element' to command name 'findElement'
+2022-07-17 21:21:05:805 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:10000/wd/hub/session/3c57b928-7e7e-447e-873b-a207770bd0e5/element] with body: {"strategy":"id","selector":"com.Splitwise.SplitwiseMobile:id/friends","context":"","multiple":false}
+2022-07-17 21:21:05:925 [WD Proxy] Got response with status 404: {"sessionId":"3c57b928-7e7e-447e-873b-a207770bd0e5","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:70)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:266)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:260)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.chann...
+2022-07-17 21:21:05:926 [W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2022-07-17 21:21:05:927 [W3C (77c2395a)] Encountered internal error running command: NoSuchElementError: An element could not be located on the page using the given search parameters.
+2022-07-17 21:21:05:927 [W3C (77c2395a)]     at AndroidUiautomator2Driver.findElOrEls (/opt/homebrew/lib/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)
+2022-07-17 21:21:05:927 [W3C (77c2395a)]     at runMicrotasks (<anonymous>)
+2022-07-17 21:21:05:927 [W3C (77c2395a)]     at processTicksAndRejections (internal/process/task_queues.js:95:5)
+2022-07-17 21:21:05:927 [W3C (77c2395a)]     at AndroidUiautomator2Driver.findElOrElsWithProcessing (/opt/homebrew/lib/node_modules/appium/node_modules/appium-base-driver/lib/basedriver/commands/find.js:33:12)
+2022-07-17 21:21:05:927 [W3C (77c2395a)]     at AndroidUiautomator2Driver.findElement (/opt/homebrew/lib/node_modules/appium/node_modules/appium-base-driver/lib/basedriver/commands/find.js:53:10)
+2022-07-17 21:21:05:930 [HTTP] <-- POST /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element 404 127 ms - 825
+2022-07-17 21:21:05:930 [HTTP] 
+2022-07-17 21:21:06:447 [HTTP] --> POST /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element
+2022-07-17 21:21:06:447 [HTTP] {"using":"id","value":"com.Splitwise.SplitwiseMobile:id/friends"}
+2022-07-17 21:21:06:448 [W3C (77c2395a)] Calling AppiumDriver.findElement() with args: ["id","com.Splitwise.SplitwiseMobile:id/friends","77c2395a-c253-4f82-a71f-ccd2a6b81d33"]
+2022-07-17 21:21:06:448 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+2022-07-17 21:21:06:448 [BaseDriver] Waiting up to 0 ms for condition
+2022-07-17 21:21:06:448 [WD Proxy] Matched '/element' to command name 'findElement'
+2022-07-17 21:21:06:449 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:10000/wd/hub/session/3c57b928-7e7e-447e-873b-a207770bd0e5/element] with body: {"strategy":"id","selector":"com.Splitwise.SplitwiseMobile:id/friends","context":"","multiple":false}
+2022-07-17 21:21:07:128 [WD Proxy] Got response with status 200: {"sessionId":"3c57b928-7e7e-447e-873b-a207770bd0e5","value":{"ELEMENT":"00000000-0000-0067-ffff-ffff0000004a","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0067-ffff-ffff0000004a"}}
+2022-07-17 21:21:07:128 [W3C (77c2395a)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0067-ffff-ffff0000004a","ELEMENT":"00000000-0000-0067-ffff-ffff0000004a"}
+2022-07-17 21:21:07:129 [HTTP] <-- POST /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element 200 682 ms - 137
+2022-07-17 21:21:07:129 [HTTP] 
+2022-07-17 21:21:07:136 [HTTP] --> GET /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element/00000000-0000-0067-ffff-ffff0000004a/displayed
+2022-07-17 21:21:07:136 [HTTP] {}
+2022-07-17 21:21:07:137 [W3C (77c2395a)] Calling AppiumDriver.elementDisplayed() with args: ["00000000-0000-0067-ffff-ffff0000004a","77c2395a-c253-4f82-a71f-ccd2a6b81d33"]
+2022-07-17 21:21:07:143 [WD Proxy] Matched '/element/00000000-0000-0067-ffff-ffff0000004a/attribute/displayed' to command name 'getAttribute'
+2022-07-17 21:21:07:144 [WD Proxy] Proxying [GET /element/00000000-0000-0067-ffff-ffff0000004a/attribute/displayed] to [GET http://127.0.0.1:10000/wd/hub/session/3c57b928-7e7e-447e-873b-a207770bd0e5/element/00000000-0000-0067-ffff-ffff0000004a/attribute/displayed] with no body
+2022-07-17 21:21:07:150 [WD Proxy] Got response with status 200: {"sessionId":"3c57b928-7e7e-447e-873b-a207770bd0e5","value":"true"}
+2022-07-17 21:21:07:150 [W3C (77c2395a)] Responding to client with driver.elementDisplayed() result: true
+2022-07-17 21:21:07:151 [HTTP] <-- GET /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element/00000000-0000-0067-ffff-ffff0000004a/displayed 200 15 ms - 14
+2022-07-17 21:21:07:151 [HTTP] 
+2022-07-17 21:21:07:156 [HTTP] --> GET /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/context
+2022-07-17 21:21:07:156 [HTTP] {}
+2022-07-17 21:21:07:158 [W3C (77c2395a)] Calling AppiumDriver.getCurrentContext() with args: ["77c2395a-c253-4f82-a71f-ccd2a6b81d33"]
+2022-07-17 21:21:07:158 [W3C (77c2395a)] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+2022-07-17 21:21:07:159 [HTTP] <-- GET /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/context 200 3 ms - 22
+2022-07-17 21:21:07:159 [HTTP] 
+2022-07-17 21:21:07:162 [HTTP] --> POST /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element
+2022-07-17 21:21:07:162 [HTTP] {"using":"id","value":"com.Splitwise.SplitwiseMobile:id/friends"}
+2022-07-17 21:21:07:163 [W3C (77c2395a)] Calling AppiumDriver.findElement() with args: ["id","com.Splitwise.SplitwiseMobile:id/friends","77c2395a-c253-4f82-a71f-ccd2a6b81d33"]
+2022-07-17 21:21:07:163 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+2022-07-17 21:21:07:163 [BaseDriver] Waiting up to 0 ms for condition
+2022-07-17 21:21:07:163 [WD Proxy] Matched '/element' to command name 'findElement'
+2022-07-17 21:21:07:163 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:10000/wd/hub/session/3c57b928-7e7e-447e-873b-a207770bd0e5/element] with body: {"strategy":"id","selector":"com.Splitwise.SplitwiseMobile:id/friends","context":"","multiple":false}
+2022-07-17 21:21:07:179 [WD Proxy] Got response with status 200: {"sessionId":"3c57b928-7e7e-447e-873b-a207770bd0e5","value":{"ELEMENT":"00000000-0000-0067-ffff-ffff0000004a","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0067-ffff-ffff0000004a"}}
+2022-07-17 21:21:07:179 [W3C (77c2395a)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0067-ffff-ffff0000004a","ELEMENT":"00000000-0000-0067-ffff-ffff0000004a"}
+2022-07-17 21:21:07:179 [HTTP] <-- POST /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element 200 17 ms - 137
+2022-07-17 21:21:07:179 [HTTP] 
+2022-07-17 21:21:07:183 [HTTP] --> POST /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element/00000000-0000-0067-ffff-ffff0000004a/click
+2022-07-17 21:21:07:183 [HTTP] {"id":"00000000-0000-0067-ffff-ffff0000004a"}
+2022-07-17 21:21:07:183 [W3C (77c2395a)] Calling AppiumDriver.click() with args: ["00000000-0000-0067-ffff-ffff0000004a","77c2395a-c253-4f82-a71f-ccd2a6b81d33"]
+2022-07-17 21:21:07:184 [WD Proxy] Matched '/element/00000000-0000-0067-ffff-ffff0000004a/click' to command name 'click'
+2022-07-17 21:21:07:184 [WD Proxy] Proxying [POST /element/00000000-0000-0067-ffff-ffff0000004a/click] to [POST http://127.0.0.1:10000/wd/hub/session/3c57b928-7e7e-447e-873b-a207770bd0e5/element/00000000-0000-0067-ffff-ffff0000004a/click] with body: {"element":"00000000-0000-0067-ffff-ffff0000004a"}
+2022-07-17 21:21:07:228 [WD Proxy] Got response with status 200: {"sessionId":"3c57b928-7e7e-447e-873b-a207770bd0e5","value":null}
+2022-07-17 21:21:07:228 [W3C (77c2395a)] Responding to client with driver.click() result: null
+2022-07-17 21:21:07:228 [HTTP] <-- POST /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element/00000000-0000-0067-ffff-ffff0000004a/click 200 45 ms - 14
+2022-07-17 21:21:07:228 [HTTP] 
+2022-07-17 21:21:07:230 [HTTP] --> GET /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/context
+2022-07-17 21:21:07:230 [HTTP] {}
+2022-07-17 21:21:07:230 [W3C (77c2395a)] Calling AppiumDriver.getCurrentContext() with args: ["77c2395a-c253-4f82-a71f-ccd2a6b81d33"]
+2022-07-17 21:21:07:231 [W3C (77c2395a)] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+2022-07-17 21:21:07:231 [HTTP] <-- GET /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/context 200 1 ms - 22
+2022-07-17 21:21:07:231 [HTTP] 
+2022-07-17 21:21:07:235 [HTTP] --> POST /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element
+2022-07-17 21:21:07:235 [HTTP] {"using":"id","value":"com.Splitwise.SplitwiseMobile:id/activity"}
+2022-07-17 21:21:07:235 [W3C (77c2395a)] Calling AppiumDriver.findElement() with args: ["id","com.Splitwise.SplitwiseMobile:id/activity","77c2395a-c253-4f82-a71f-ccd2a6b81d33"]
+2022-07-17 21:21:07:235 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+2022-07-17 21:21:07:235 [BaseDriver] Waiting up to 0 ms for condition
+2022-07-17 21:21:07:235 [WD Proxy] Matched '/element' to command name 'findElement'
+2022-07-17 21:21:07:235 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:10000/wd/hub/session/3c57b928-7e7e-447e-873b-a207770bd0e5/element] with body: {"strategy":"id","selector":"com.Splitwise.SplitwiseMobile:id/activity","context":"","multiple":false}
+2022-07-17 21:21:07:313 [WD Proxy] Got response with status 200: {"sessionId":"3c57b928-7e7e-447e-873b-a207770bd0e5","value":{"ELEMENT":"00000000-0000-0067-ffff-ffff0000004f","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0067-ffff-ffff0000004f"}}
+2022-07-17 21:21:07:314 [W3C (77c2395a)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0067-ffff-ffff0000004f","ELEMENT":"00000000-0000-0067-ffff-ffff0000004f"}
+2022-07-17 21:21:07:314 [HTTP] <-- POST /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element 200 79 ms - 137
+2022-07-17 21:21:07:314 [HTTP] 
+2022-07-17 21:21:07:317 [HTTP] --> GET /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element/00000000-0000-0067-ffff-ffff0000004f/displayed
+2022-07-17 21:21:07:317 [HTTP] {}
+2022-07-17 21:21:07:317 [W3C (77c2395a)] Calling AppiumDriver.elementDisplayed() with args: ["00000000-0000-0067-ffff-ffff0000004f","77c2395a-c253-4f82-a71f-ccd2a6b81d33"]
+2022-07-17 21:21:07:317 [WD Proxy] Matched '/element/00000000-0000-0067-ffff-ffff0000004f/attribute/displayed' to command name 'getAttribute'
+2022-07-17 21:21:07:317 [WD Proxy] Proxying [GET /element/00000000-0000-0067-ffff-ffff0000004f/attribute/displayed] to [GET http://127.0.0.1:10000/wd/hub/session/3c57b928-7e7e-447e-873b-a207770bd0e5/element/00000000-0000-0067-ffff-ffff0000004f/attribute/displayed] with no body
+2022-07-17 21:21:08:052 [WD Proxy] Got response with status 200: {"sessionId":"3c57b928-7e7e-447e-873b-a207770bd0e5","value":"true"}
+2022-07-17 21:21:08:052 [W3C (77c2395a)] Responding to client with driver.elementDisplayed() result: true
+2022-07-17 21:21:08:053 [HTTP] <-- GET /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element/00000000-0000-0067-ffff-ffff0000004f/displayed 200 736 ms - 14
+2022-07-17 21:21:08:053 [HTTP] 
+2022-07-17 21:21:08:055 [HTTP] --> GET /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/context
+2022-07-17 21:21:08:056 [HTTP] {}
+2022-07-17 21:21:08:056 [W3C (77c2395a)] Calling AppiumDriver.getCurrentContext() with args: ["77c2395a-c253-4f82-a71f-ccd2a6b81d33"]
+2022-07-17 21:21:08:056 [W3C (77c2395a)] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+2022-07-17 21:21:08:057 [HTTP] <-- GET /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/context 200 1 ms - 22
+2022-07-17 21:21:08:057 [HTTP] 
+2022-07-17 21:21:08:062 [HTTP] --> POST /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element
+2022-07-17 21:21:08:062 [HTTP] {"using":"id","value":"com.Splitwise.SplitwiseMobile:id/activity"}
+2022-07-17 21:21:08:063 [W3C (77c2395a)] Calling AppiumDriver.findElement() with args: ["id","com.Splitwise.SplitwiseMobile:id/activity","77c2395a-c253-4f82-a71f-ccd2a6b81d33"]
+2022-07-17 21:21:08:063 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+2022-07-17 21:21:08:063 [BaseDriver] Waiting up to 0 ms for condition
+2022-07-17 21:21:08:063 [WD Proxy] Matched '/element' to command name 'findElement'
+2022-07-17 21:21:08:064 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:10000/wd/hub/session/3c57b928-7e7e-447e-873b-a207770bd0e5/element] with body: {"strategy":"id","selector":"com.Splitwise.SplitwiseMobile:id/activity","context":"","multiple":false}
+2022-07-17 21:21:08:545 [WD Proxy] Got response with status 200: {"sessionId":"3c57b928-7e7e-447e-873b-a207770bd0e5","value":{"ELEMENT":"00000000-0000-0067-ffff-ffff0000004f","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0067-ffff-ffff0000004f"}}
+2022-07-17 21:21:08:546 [W3C (77c2395a)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0067-ffff-ffff0000004f","ELEMENT":"00000000-0000-0067-ffff-ffff0000004f"}
+2022-07-17 21:21:08:547 [HTTP] <-- POST /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element 200 484 ms - 137
+2022-07-17 21:21:08:547 [HTTP] 
+2022-07-17 21:21:08:552 [HTTP] --> POST /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element/00000000-0000-0067-ffff-ffff0000004f/click
+2022-07-17 21:21:08:552 [HTTP] {"id":"00000000-0000-0067-ffff-ffff0000004f"}
+2022-07-17 21:21:08:553 [W3C (77c2395a)] Calling AppiumDriver.click() with args: ["00000000-0000-0067-ffff-ffff0000004f","77c2395a-c253-4f82-a71f-ccd2a6b81d33"]
+2022-07-17 21:21:08:556 [WD Proxy] Matched '/element/00000000-0000-0067-ffff-ffff0000004f/click' to command name 'click'
+2022-07-17 21:21:08:556 [WD Proxy] Proxying [POST /element/00000000-0000-0067-ffff-ffff0000004f/click] to [POST http://127.0.0.1:10000/wd/hub/session/3c57b928-7e7e-447e-873b-a207770bd0e5/element/00000000-0000-0067-ffff-ffff0000004f/click] with body: {"element":"00000000-0000-0067-ffff-ffff0000004f"}
+2022-07-17 21:21:08:617 [WD Proxy] Got response with status 200: {"sessionId":"3c57b928-7e7e-447e-873b-a207770bd0e5","value":null}
+2022-07-17 21:21:08:617 [W3C (77c2395a)] Responding to client with driver.click() result: null
+2022-07-17 21:21:08:618 [HTTP] <-- POST /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element/00000000-0000-0067-ffff-ffff0000004f/click 200 65 ms - 14
+2022-07-17 21:21:08:618 [HTTP] 
+2022-07-17 21:21:08:629 [HTTP] --> GET /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/context
+2022-07-17 21:21:08:630 [HTTP] {}
+2022-07-17 21:21:08:630 [W3C (77c2395a)] Calling AppiumDriver.getCurrentContext() with args: ["77c2395a-c253-4f82-a71f-ccd2a6b81d33"]
+2022-07-17 21:21:08:630 [W3C (77c2395a)] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+2022-07-17 21:21:08:631 [HTTP] <-- GET /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/context 200 1 ms - 22
+2022-07-17 21:21:08:631 [HTTP] 
+2022-07-17 21:21:08:637 [HTTP] --> POST /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element
+2022-07-17 21:21:08:637 [HTTP] {"using":"xpath","value":"(//android.widget.TextView)[1]"}
+2022-07-17 21:21:08:637 [W3C (77c2395a)] Calling AppiumDriver.findElement() with args: ["xpath","(//android.widget.TextView)[1]","77c2395a-c253-4f82-a71f-ccd2a6b81d33"]
+2022-07-17 21:21:08:637 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+2022-07-17 21:21:08:637 [BaseDriver] Waiting up to 0 ms for condition
+2022-07-17 21:21:08:638 [WD Proxy] Matched '/element' to command name 'findElement'
+2022-07-17 21:21:08:638 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:10000/wd/hub/session/3c57b928-7e7e-447e-873b-a207770bd0e5/element] with body: {"strategy":"xpath","selector":"(//android.widget.TextView)[1]","context":"","multiple":false}
+2022-07-17 21:21:08:883 [WD Proxy] Got response with status 200: {"sessionId":"3c57b928-7e7e-447e-873b-a207770bd0e5","value":{"ELEMENT":"00000000-0000-0067-ffff-ffff000001aa","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0067-ffff-ffff000001aa"}}
+2022-07-17 21:21:08:883 [W3C (77c2395a)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0067-ffff-ffff000001aa","ELEMENT":"00000000-0000-0067-ffff-ffff000001aa"}
+2022-07-17 21:21:08:884 [HTTP] <-- POST /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element 200 247 ms - 137
+2022-07-17 21:21:08:884 [HTTP] 
+2022-07-17 21:21:08:886 [HTTP] --> GET /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element/00000000-0000-0067-ffff-ffff000001aa/displayed
+2022-07-17 21:21:08:886 [HTTP] {}
+2022-07-17 21:21:08:886 [W3C (77c2395a)] Calling AppiumDriver.elementDisplayed() with args: ["00000000-0000-0067-ffff-ffff000001aa","77c2395a-c253-4f82-a71f-ccd2a6b81d33"]
+2022-07-17 21:21:08:886 [WD Proxy] Matched '/element/00000000-0000-0067-ffff-ffff000001aa/attribute/displayed' to command name 'getAttribute'
+2022-07-17 21:21:08:886 [WD Proxy] Proxying [GET /element/00000000-0000-0067-ffff-ffff000001aa/attribute/displayed] to [GET http://127.0.0.1:10000/wd/hub/session/3c57b928-7e7e-447e-873b-a207770bd0e5/element/00000000-0000-0067-ffff-ffff000001aa/attribute/displayed] with no body
+2022-07-17 21:21:09:483 [WD Proxy] Got response with status 200: {"sessionId":"3c57b928-7e7e-447e-873b-a207770bd0e5","value":"true"}
+2022-07-17 21:21:09:484 [W3C (77c2395a)] Responding to client with driver.elementDisplayed() result: true
+2022-07-17 21:21:09:484 [HTTP] <-- GET /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element/00000000-0000-0067-ffff-ffff000001aa/displayed 200 598 ms - 14
+2022-07-17 21:21:09:485 [HTTP] 
+2022-07-17 21:21:09:487 [HTTP] --> GET /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/context
+2022-07-17 21:21:09:487 [HTTP] {}
+2022-07-17 21:21:09:488 [W3C (77c2395a)] Calling AppiumDriver.getCurrentContext() with args: ["77c2395a-c253-4f82-a71f-ccd2a6b81d33"]
+2022-07-17 21:21:09:488 [W3C (77c2395a)] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+2022-07-17 21:21:09:489 [HTTP] <-- GET /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/context 200 1 ms - 22
+2022-07-17 21:21:09:489 [HTTP] 
+2022-07-17 21:21:09:493 [HTTP] --> POST /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element
+2022-07-17 21:21:09:493 [HTTP] {"using":"xpath","value":"(//android.widget.TextView)[1]"}
+2022-07-17 21:21:09:493 [W3C (77c2395a)] Calling AppiumDriver.findElement() with args: ["xpath","(//android.widget.TextView)[1]","77c2395a-c253-4f82-a71f-ccd2a6b81d33"]
+2022-07-17 21:21:09:494 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+2022-07-17 21:21:09:494 [BaseDriver] Waiting up to 0 ms for condition
+2022-07-17 21:21:09:494 [WD Proxy] Matched '/element' to command name 'findElement'
+2022-07-17 21:21:09:494 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:10000/wd/hub/session/3c57b928-7e7e-447e-873b-a207770bd0e5/element] with body: {"strategy":"xpath","selector":"(//android.widget.TextView)[1]","context":"","multiple":false}
+2022-07-17 21:21:09:570 [WD Proxy] Got response with status 200: {"sessionId":"3c57b928-7e7e-447e-873b-a207770bd0e5","value":{"ELEMENT":"00000000-0000-0067-ffff-ffff000001aa","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0067-ffff-ffff000001aa"}}
+2022-07-17 21:21:09:570 [W3C (77c2395a)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0067-ffff-ffff000001aa","ELEMENT":"00000000-0000-0067-ffff-ffff000001aa"}
+2022-07-17 21:21:09:571 [HTTP] <-- POST /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element 200 78 ms - 137
+2022-07-17 21:21:09:571 [HTTP] 
+2022-07-17 21:21:09:573 [HTTP] --> GET /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element/00000000-0000-0067-ffff-ffff000001aa/attribute/text
+2022-07-17 21:21:09:573 [HTTP] {}
+2022-07-17 21:21:09:573 [W3C (77c2395a)] Calling AppiumDriver.getAttribute() with args: ["text","00000000-0000-0067-ffff-ffff000001aa","77c2395a-c253-4f82-a71f-ccd2a6b81d33"]
+2022-07-17 21:21:09:574 [WD Proxy] Matched '/element/00000000-0000-0067-ffff-ffff000001aa/attribute/text' to command name 'getAttribute'
+2022-07-17 21:21:09:574 [WD Proxy] Proxying [GET /element/00000000-0000-0067-ffff-ffff000001aa/attribute/text] to [GET http://127.0.0.1:10000/wd/hub/session/3c57b928-7e7e-447e-873b-a207770bd0e5/element/00000000-0000-0067-ffff-ffff000001aa/attribute/text] with no body
+2022-07-17 21:21:09:584 [WD Proxy] Got response with status 200: {"sessionId":"3c57b928-7e7e-447e-873b-a207770bd0e5","value":"You added “lunch” in “Test Group”.\nYou do not owe anything"}
+2022-07-17 21:21:09:584 [W3C (77c2395a)] Responding to client with driver.getAttribute() result: "You added “lunch” in “Test Group”.\nYou do not owe anything"
+2022-07-17 21:21:09:585 [HTTP] <-- GET /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/element/00000000-0000-0067-ffff-ffff000001aa/attribute/text 200 12 ms - 79
+2022-07-17 21:21:09:585 [HTTP] 
+2022-07-17 21:21:09:601 [HTTP] --> POST /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/appium/stop_recording_screen
+2022-07-17 21:21:09:601 [HTTP] {}
+2022-07-17 21:21:09:602 [W3C (77c2395a)] Calling AppiumDriver.stopRecordingScreen() with args: [null,"77c2395a-c253-4f82-a71f-ccd2a6b81d33"]
+2022-07-17 21:21:09:602 [ADB] Getting IDs of all 'screenrecord' processes
+2022-07-17 21:21:09:602 [ADB] Running '/Users/vigneshwarang/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell pgrep -f \(\[\[:blank:\]\]\|\^\)screenrecord\(\[\[:blank:\]\]\|\$\)'
+2022-07-17 21:21:09:699 [ADB] Running '/Users/vigneshwarang/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell kill -2 15521'
+2022-07-17 21:21:09:739 [ADB] Getting IDs of all 'screenrecord' processes
+2022-07-17 21:21:09:739 [ADB] Running '/Users/vigneshwarang/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell pgrep -f \(\[\[:blank:\]\]\|\^\)screenrecord\(\[\[:blank:\]\]\|\$\)'
+2022-07-17 21:21:10:306 [ADB] Getting IDs of all 'screenrecord' processes
+2022-07-17 21:21:10:307 [ADB] Running '/Users/vigneshwarang/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell pgrep -f \(\[\[:blank:\]\]\|\^\)screenrecord\(\[\[:blank:\]\]\|\$\)'
+2022-07-17 21:21:10:367 [ADB] Running '/Users/vigneshwarang/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 pull /sdcard/0ce9bf5a.mp4 /var/folders/26/hbd31c3n3cl5gjlccxn8g58r0000gn/T/2022617-5881-11wqmeg.ibr2/0ce9bf5a.mp4'
+2022-07-17 21:21:10:414 [ADB] Running '/Users/vigneshwarang/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell rm -rf /sdcard/0ce9bf5a.mp4'
+2022-07-17 21:21:10:442 [AndroidDriver] The size of the resulting screen recording is 8.67 MB
+2022-07-17 21:21:10:569 [W3C (77c2395a)] Responding to client with driver.stopRecordingScreen() result: "AAAAGGZ0eXBtcDQyAAAAAGlzb21tcDQyAAAMeGZyZWUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA...
+2022-07-17 21:21:10:642 [HTTP] <-- POST /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33/appium/stop_recording_screen 200 1032 ms - 12123972
+2022-07-17 21:21:10:642 [HTTP] 
+2022-07-17 21:21:11:474 [HTTP] --> DELETE /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33
+2022-07-17 21:21:11:474 [HTTP] {}
+2022-07-17 21:21:11:474 [W3C (77c2395a)] Calling AppiumDriver.deleteSession() with args: ["77c2395a-c253-4f82-a71f-ccd2a6b81d33"]
+2022-07-17 21:21:11:475 [BaseDriver] Event 'quitSessionRequested' logged at 1658092871475 (23:21:11 GMT+0200 (Central European Summer Time))
+2022-07-17 21:21:11:475 [Appium] Removing session 77c2395a-c253-4f82-a71f-ccd2a6b81d33 from our master session list
+2022-07-17 21:21:11:475 [UiAutomator2] Deleting UiAutomator2 session
+2022-07-17 21:21:11:475 [UiAutomator2] Deleting UiAutomator2 server session
+2022-07-17 21:21:11:475 [WD Proxy] Matched '/' to command name 'deleteSession'
+2022-07-17 21:21:11:476 [WD Proxy] Proxying [DELETE /] to [DELETE http://127.0.0.1:10000/wd/hub/session/3c57b928-7e7e-447e-873b-a207770bd0e5] with no body
+2022-07-17 21:21:11:489 [WD Proxy] Got response with status 200: {"sessionId":"3c57b928-7e7e-447e-873b-a207770bd0e5","value":null}
+2022-07-17 21:21:11:489 [ADB] Running '/Users/vigneshwarang/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell am force-stop com.Splitwise.SplitwiseMobile'
+2022-07-17 21:21:11:573 [Logcat] Stopping logcat capture
+2022-07-17 21:21:11:578 [ADB] Removing forwarded port socket connection: 10000 
+2022-07-17 21:21:11:579 [ADB] Running '/Users/vigneshwarang/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 forward --remove tcp:10000'
+2022-07-17 21:21:11:620 [UiAutomator2] Restoring hidden api policy to the device default configuration
+2022-07-17 21:21:11:620 [ADB] Running '/Users/vigneshwarang/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell 'settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy''
+2022-07-17 21:21:11:775 [BaseDriver] Event 'quitSessionFinished' logged at 1658092871774 (23:21:11 GMT+0200 (Central European Summer Time))
+2022-07-17 21:21:11:775 [W3C (77c2395a)] Received response: null
+2022-07-17 21:21:11:775 [W3C (77c2395a)] But deleting session, so not returning
+2022-07-17 21:21:11:775 [W3C (77c2395a)] Responding to client with driver.deleteSession() result: null
+2022-07-17 21:21:11:777 [HTTP] <-- DELETE /wd/hub/session/77c2395a-c253-4f82-a71f-ccd2a6b81d33 200 301 ms - 14
+2022-07-17 21:21:11:777 [HTTP] 

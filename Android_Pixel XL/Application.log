@@ -1,0 +1,17 @@
+[Android_Pixel XL INFO ] 2022-07-17 23:20:34.985 ServerManager:20 - starting appium server
+[Android_Pixel XL INFO ] 2022-07-17 23:20:35.981 ServerManager:29 - Appium server started
+[Android_Pixel XL INFO ] 2022-07-17 23:20:36.001 DriverManager:28 - initializing Appium driver
+[Android_Pixel XL INFO ] 2022-07-17 23:20:36.013 PropertyManager:17 - loading config properties
+[Android_Pixel XL INFO ] 2022-07-17 23:20:36.014 CapabilitiesManager:18 - getting capabilities
+[Android_Pixel XL INFO ] 2022-07-17 23:20:36.026 CapabilitiesManager:34 - appUrl is/Users/vigneshwarang/IdeaProjects/appium-cucumberbdd/src/test/resources/apps/Splitwies_apkmirror.com.apk
+[Android_Pixel XL INFO ] 2022-07-17 23:20:41.986 DriverManager:40 - Driver is initialized
+[Android_Pixel XL INFO ] 2022-07-17 23:20:42.997 BasePage:56 - press first login button
+[Android_Pixel XL INFO ] 2022-07-17 23:20:44.904 BasePage:73 - login with pradheepren@gmail.com
+[Android_Pixel XL INFO ] 2022-07-17 23:20:46.282 BasePage:73 - password is Prady@2022
+[Android_Pixel XL INFO ] 2022-07-17 23:20:46.857 BasePage:56 - press login button
+[Android_Pixel XL INFO ] 2022-07-17 23:21:02.328 BasePage:73 - descriptionTextField is lunch
+[Android_Pixel XL INFO ] 2022-07-17 23:21:04.520 BasePage:73 - descriptionTextField is 10
+[Android_Pixel XL INFO ] 2022-07-17 23:21:05.712 BasePage:56 - press save button
+[Android_Pixel XL INFO ] 2022-07-17 23:21:09.592 BasePage:99 - textYou added ?lunch? in ?Test Group?.
+You do not owe anything
+[Android_Pixel XL INFO ] 2022-07-17 23:21:11.090 VideoManager:35 - video path: Android_Pixel XL/Videos/User login to the app and add expenses in a group using splitwise.mp4
